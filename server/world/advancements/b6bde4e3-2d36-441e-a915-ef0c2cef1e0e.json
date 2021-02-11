@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_mountains": "2021-02-11 21:41:17 +0000",
+      "minecraft:giant_tree_taiga_hills": "2021-02-11 21:45:16 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2584
+}
