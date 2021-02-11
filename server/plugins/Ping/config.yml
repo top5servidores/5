@@ -1,0 +1,3 @@
+# Locale used to display texts. Empty: system language.
+# Available: en-US and fr-FR.
+locale:

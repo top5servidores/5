@@ -41,9 +41,9 @@ components:
   - class: org.dynmap.ClientConfigurationComponent
   
   - class: org.dynmap.InternalClientUpdateComponent
-    sendhealth: true
-    sendposition: true
-    allowwebchat: true
+    sendhealth: false
+    sendposition: false
+    allowwebchat: false
     webchat-interval: 5
     hidewebchatip: false
     trustclientname: false

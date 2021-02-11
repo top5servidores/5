@@ -1,207 +1,1305 @@
-[22:06:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:06:14] [main/INFO]: Reloading ResourceManager: Default, bukkit
-[22:06:15] [Worker-Main-6/INFO]: Loaded 7 recipes
-[22:06:17] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[22:06:17] [Server thread/INFO]: Loading properties
-[22:06:17] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-37d799b-3eb7236 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[22:06:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:06:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:06:17] [Server thread/INFO]: Debug logging is disabled
-[22:06:17] [Server thread/INFO]: Default game type: SURVIVAL
-[22:06:17] [Server thread/INFO]: Generating keypair
-[22:06:18] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:06:18] [Server thread/INFO]: Using epoll channel type
-[22:06:18] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[22:06:23] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta7-449 does not specify an api-version.
-[22:06:23] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta7-449
-[22:06:23] [Server thread/INFO]: [dynmap] version=git-Spigot-37d799b-3eb7236 (MC: 1.16.4)
-[22:06:23] [Server thread/INFO]: [dynmap] Mod Support API available
-[22:06:23] [Server thread/INFO]: Preparing level "world"
-[22:06:23] [Server thread/INFO]: -------- World Settings For [world] --------
-[22:06:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:06:23] [Server thread/INFO]: Mob Spawn Range: 6
-[22:06:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:06:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:06:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:06:23] [Server thread/INFO]: Max TNT Explosions: 100
-[22:06:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:06:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:06:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:06:23] [Server thread/INFO]: View Distance: 10
-[22:06:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:06:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:06:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:06:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:06:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:06:23] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[22:06:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:06:23] [Server thread/INFO]: Mob Spawn Range: 6
-[22:06:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:06:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:06:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:06:23] [Server thread/INFO]: Max TNT Explosions: 100
-[22:06:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:06:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:06:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:06:23] [Server thread/INFO]: View Distance: 10
-[22:06:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:06:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:06:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:06:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:06:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:06:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[22:06:23] [Server thread/INFO]: Experience Merge Radius: 3.0
-[22:06:23] [Server thread/INFO]: Mob Spawn Range: 6
-[22:06:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Cane Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Melon Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Potato Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Vine Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[22:06:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[22:06:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[22:06:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[22:06:23] [Server thread/INFO]: Max TNT Explosions: 100
-[22:06:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[22:06:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[22:06:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[22:06:23] [Server thread/INFO]: View Distance: 10
-[22:06:23] [Server thread/INFO]: Item Despawn Rate: 6000
-[22:06:23] [Server thread/INFO]: Item Merge Radius: 2.5
-[22:06:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[22:06:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[22:06:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[22:06:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:25] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:30] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:31] [Server thread/INFO]: Preparing spawn area: 83%
-[22:06:31] [Server thread/INFO]: Preparing spawn area: 90%
-[22:06:31] [Server thread/INFO]: Time elapsed: 7701 ms
-[22:06:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[22:06:33] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:33] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:33] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:33] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:33] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[22:06:34] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[22:06:34] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[22:06:35] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[22:06:35] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[22:06:36] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[22:06:36] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[22:06:37] [Worker-Main-5/INFO]: Preparing spawn area: 84%
-[22:06:37] [Worker-Main-6/INFO]: Preparing spawn area: 88%
-[22:06:38] [Worker-Main-4/INFO]: Preparing spawn area: 91%
-[22:06:38] [Worker-Main-5/INFO]: Preparing spawn area: 95%
-[22:06:39] [Worker-Main-6/INFO]: Preparing spawn area: 97%
-[22:06:39] [Server thread/INFO]: Time elapsed: 7668 ms
-[22:06:39] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[22:06:40] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:40] [Server thread/INFO]: Preparing spawn area: 0%
-[22:06:40] [Server thread/INFO]: Preparing spawn area: 23%
-[22:06:40] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[22:06:41] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[22:06:41] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[22:06:42] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[22:06:42] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[22:06:43] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[22:06:43] [Worker-Main-5/INFO]: Preparing spawn area: 83%
-[22:06:44] [Worker-Main-4/INFO]: Preparing spawn area: 83%
-[22:06:44] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[22:06:45] [Worker-Main-6/INFO]: Preparing spawn area: 83%
-[22:06:45] [Server thread/INFO]: Time elapsed: 6491 ms
-[22:06:45] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta7-449
-[22:06:45] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
-[22:06:45] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
-[22:06:46] [Server thread/INFO]: [dynmap] Mod Support processing completed
-[22:06:47] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
-[22:06:47] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
-[22:06:47] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
-[22:06:47] [Server thread/INFO]: [dynmap] Starting enter/exit processing
-[22:06:47] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
-[22:06:48] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
-[22:06:48] [Server thread/INFO]: [dynmap] version 3.1-beta7-449 is enabled - core version 3.1-beta7-449
-[22:06:48] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
-[22:06:48] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
-[22:06:48] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
-[22:06:48] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
-[22:06:48] [Server thread/INFO]: [dynmap] Loaded 1202 pending tile renders for world 'world'
-[22:06:48] [Server thread/INFO]: [dynmap] Full render for world 'world' restored
-[22:06:48] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
-[22:06:48] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
-[22:06:48] [Server thread/INFO]: [dynmap] Enabled
-[22:06:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:06:48] [Server thread/INFO]: Done (24.784s)! For help, type "help"
-[22:06:49] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
-[22:06:57] [User Authenticator #1/INFO]: UUID of player nekkan is b6bde4e3-2d36-441e-a915-ef0c2cef1e0e
-[22:06:57] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:51186] logged in with entity id 156 at ([world]6875.699999988079, 201.0, 4994.433238131623)
-[22:07:04] [Server thread/INFO]: nekkan issued server command: /time set 0
-[22:07:04] [Server thread/INFO]: [nekkan: Set the time to 0]
-[22:07:06] [Server thread/INFO]: nekkan issued server command: /tp 2700 64 1200
-[22:07:06] [Server thread/WARN]: Entity EntityPlayer['nekkan'/156, l='ServerLevel[world]', x=2700.50, y=64.00, z=1200.50](nekkan at 2700.5,64.0,1200.5) left loaded chunk area
-[22:07:06] [Server thread/INFO]: [nekkan: Teleported nekkan to 2700.5, 64.0, 1200.5]
-[22:07:08] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
-[22:07:08] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
-[22:09:23] [Server thread/INFO]: nekkan issued server command: /locatebiome
-[22:09:25] [Server thread/INFO]: nekkan issued server command: /locatebiome minecraft:badlands_plateau
-[22:09:30] [Async Chat Thread - #0/INFO]: <nekkan> a[m
-[22:09:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5937ms or 118 ticks behind
-[22:09:31] [Server thread/WARN]: nekkan moved too quickly! 15.911129600694949,0.0,-62.733132905400566
-[22:09:31] [Server thread/INFO]: nekkan issued server command: /
-[22:10:27] [Server thread/INFO]: nekkan lost connection: Disconnected
-[22:10:27] [Server thread/INFO]: nekkan left the game
-[22:11:25] [Thread-2/INFO]: Stopping server
+[22:15:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:15:29] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[22:15:43] [Worker-Main-9/INFO]: Loaded 7 recipes
+[22:16:07] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[22:16:07] [Server thread/INFO]: Loading properties
+[22:16:13] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-37d799b-3eb7236 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[22:16:16] [Server thread/INFO]: Debug logging is disabled
+[22:16:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:16:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:16:16] [Server thread/INFO]: Default game type: SURVIVAL
+[22:16:16] [Server thread/INFO]: Generating keypair
+[22:16:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:16:22] [Server thread/INFO]: Using epoll channel type
+[22:16:35] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:17:32] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta7-449 does not specify an api-version.
+[22:17:33] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.2-SNAPSHOT
+[22:17:34] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.2-SNAPSHOT is now loaded, injecting!
+[22:17:41] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[22:17:41] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[22:17:42] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[22:17:43] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[22:17:44] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[22:17:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:17:45] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[22:17:45] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
+[22:17:45] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.3
+[22:17:45] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.0.0-SNAPSHOT
+[22:17:45] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta7-449
+[22:17:46] [Server thread/INFO]: [dynmap] version=git-Spigot-37d799b-3eb7236 (MC: 1.16.4)
+[22:17:48] [Server thread/INFO]: [dynmap] Mod Support API available
+[22:17:48] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
+[22:17:48] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:17:48] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:17:51] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
+[22:17:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
+[22:17:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
+[22:17:53] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
+[22:17:54] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
+[22:17:55] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
+[22:17:55] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.3
+[22:17:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:17:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:17:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:17:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:17:57] [Server thread/INFO]: Preparing level "world"
+[22:17:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:17:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:17:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:17:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:17:59] [Server thread/INFO]: Max TNT Explosions: 100
+[22:17:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:17:59] [Server thread/INFO]: Mob Spawn Range: 6
+[22:17:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:17:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:17:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:17:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:17:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:17:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:17:59] [Server thread/INFO]: View Distance: 10
+[22:17:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:17:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:17:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:18:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:18:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:18:01] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:01] [Server thread/INFO]: Mob Spawn Range: 6
+[22:18:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:18:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:18:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:01] [Server thread/INFO]: View Distance: 10
+[22:18:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:18:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:18:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:18:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:18:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:18:02] [Server thread/INFO]: Max TNT Explosions: 100
+[22:18:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:18:02] [Server thread/INFO]: Mob Spawn Range: 6
+[22:18:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:18:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:18:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:18:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:18:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:18:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:18:02] [Server thread/INFO]: View Distance: 10
+[22:18:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:18:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:18:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:18:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:18:59] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:00] [Server thread/INFO]: Preparing spawn area: 73%
+[22:19:02] [Server thread/INFO]: Preparing spawn area: 83%
+[22:19:02] [Server thread/INFO]: Preparing spawn area: 83%
+[22:19:02] [Server thread/INFO]: Preparing spawn area: 83%
+[22:19:02] [Server thread/INFO]: Preparing spawn area: 83%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:06] [Server thread/INFO]: Time elapsed: 63387 ms
+[22:19:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Server thread/INFO]: Preparing spawn area: 0%
+[22:19:17] [Worker-Main-6/INFO]: Preparing spawn area: 4%
+[22:19:18] [Worker-Main-12/INFO]: Preparing spawn area: 46%
+[22:19:18] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:20] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:20] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:21] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:21] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:21] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:21] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:22] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:22] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:23] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:23] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:24] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:24] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:25] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:25] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:26] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:26] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:27] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:27] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:28] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:28] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:29] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:29] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:30] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:30] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:31] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:31] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:32] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:32] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:33] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:33] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:34] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:34] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:35] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:35] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:36] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:36] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:37] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:37] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:38] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:38] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:39] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:39] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:40] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:40] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:41] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:41] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:42] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:42] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:43] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:43] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:44] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:44] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:45] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:47] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:47] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:47] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:47] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:47] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:48] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:48] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:19:49] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:49] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:50] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:50] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:19:51] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:51] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:52] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:52] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:53] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:19:53] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:54] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:54] [Worker-Main-7/INFO]: Preparing spawn area: 83%
+[22:19:55] [Server thread/INFO]: Preparing spawn area: 83%
+[22:19:55] [Worker-Main-8/INFO]: Preparing spawn area: 84%
+[22:19:56] [Worker-Main-8/INFO]: Preparing spawn area: 84%
+[22:19:56] [Worker-Main-8/INFO]: Preparing spawn area: 85%
+[22:19:57] [Worker-Main-8/INFO]: Preparing spawn area: 85%
+[22:19:57] [Server thread/INFO]: Preparing spawn area: 86%
+[22:19:58] [Worker-Main-6/INFO]: Preparing spawn area: 86%
+[22:19:58] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[22:19:59] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[22:20:00] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[22:20:00] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[22:20:00] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[22:20:01] [Worker-Main-8/INFO]: Preparing spawn area: 89%
+[22:20:01] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[22:20:02] [Worker-Main-11/INFO]: Preparing spawn area: 89%
+[22:20:02] [Worker-Main-6/INFO]: Preparing spawn area: 89%
+[22:20:03] [Worker-Main-7/INFO]: Preparing spawn area: 89%
+[22:20:03] [Worker-Main-7/INFO]: Preparing spawn area: 92%
+[22:20:04] [Worker-Main-7/INFO]: Preparing spawn area: 92%
+[22:20:05] [Worker-Main-7/INFO]: Preparing spawn area: 92%
+[22:20:05] [Worker-Main-11/INFO]: Preparing spawn area: 92%
+[22:20:05] [Worker-Main-11/INFO]: Preparing spawn area: 92%
+[22:20:06] [Worker-Main-6/INFO]: Preparing spawn area: 93%
+[22:20:06] [Worker-Main-6/INFO]: Preparing spawn area: 93%
+[22:20:07] [Worker-Main-6/INFO]: Preparing spawn area: 93%
+[22:20:07] [Worker-Main-11/INFO]: Preparing spawn area: 93%
+[22:20:08] [Worker-Main-6/INFO]: Preparing spawn area: 93%
+[22:20:09] [Worker-Main-8/INFO]: Preparing spawn area: 93%
+[22:20:09] [Worker-Main-8/INFO]: Preparing spawn area: 93%
+[22:20:10] [Worker-Main-8/INFO]: Preparing spawn area: 93%
+[22:20:10] [Worker-Main-8/INFO]: Preparing spawn area: 93%
+[22:20:10] [Worker-Main-8/INFO]: Preparing spawn area: 94%
+[22:20:11] [Worker-Main-7/INFO]: Preparing spawn area: 94%
+[22:20:11] [Worker-Main-7/INFO]: Preparing spawn area: 95%
+[22:20:12] [Worker-Main-7/INFO]: Preparing spawn area: 95%
+[22:20:12] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[22:20:13] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[22:20:13] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[22:20:14] [Worker-Main-12/INFO]: Preparing spawn area: 97%
+[22:20:14] [Worker-Main-11/INFO]: Preparing spawn area: 97%
+[22:20:15] [Worker-Main-11/INFO]: Preparing spawn area: 98%
+[22:20:15] [Worker-Main-11/INFO]: Preparing spawn area: 98%
+[22:20:16] [Worker-Main-12/INFO]: Preparing spawn area: 99%
+[22:20:16] [Worker-Main-12/INFO]: Preparing spawn area: 99%
+[22:20:16] [Server thread/INFO]: Time elapsed: 70103 ms
+[22:20:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:21] [Server thread/INFO]: Preparing spawn area: 0%
+[22:20:22] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[22:20:22] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:23] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:23] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:24] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:24] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:25] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:25] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:26] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:26] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:27] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:27] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:28] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:28] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:29] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:30] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:30] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:30] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:31] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:31] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:32] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:32] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:33] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:33] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:34] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:34] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:35] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[22:20:35] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:36] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:36] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:37] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:37] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:38] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:38] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:39] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:39] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:40] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:40] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:41] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:41] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:42] [Worker-Main-8/INFO]: Preparing spawn area: 83%
+[22:20:42] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:43] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:43] [Worker-Main-11/INFO]: Preparing spawn area: 83%
+[22:20:44] [Worker-Main-6/INFO]: Preparing spawn area: 83%
+[22:20:44] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[22:20:45] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[22:20:45] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[22:20:46] [Worker-Main-12/INFO]: Preparing spawn area: 84%
+[22:20:46] [Worker-Main-6/INFO]: Preparing spawn area: 84%
+[22:20:47] [Worker-Main-11/INFO]: Preparing spawn area: 84%
+[22:20:47] [Worker-Main-11/INFO]: Preparing spawn area: 84%
+[22:20:48] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[22:20:48] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[22:20:49] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[22:20:49] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:50] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:50] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:51] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:51] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:52] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:52] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:53] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:53] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:54] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:54] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:55] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:55] [Worker-Main-7/INFO]: Preparing spawn area: 87%
+[22:20:56] [Worker-Main-12/INFO]: Preparing spawn area: 87%
+[22:20:56] [Worker-Main-12/INFO]: Preparing spawn area: 87%
+[22:20:57] [Worker-Main-12/INFO]: Preparing spawn area: 87%
+[22:20:57] [Worker-Main-6/INFO]: Preparing spawn area: 88%
+[22:20:58] [Worker-Main-7/INFO]: Preparing spawn area: 88%
+[22:20:58] [Worker-Main-12/INFO]: Preparing spawn area: 89%
+[22:20:58] [Server thread/INFO]: Time elapsed: 42305 ms
+[22:20:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.2-SNAPSHOT
+[22:20:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.0.0-SNAPSHOT
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] [!] WARNING [!] 
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Below message can be IGNORED, we will fix this in a later release!
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Unsupported plugin (ViaVersion or ProtocolSupport) detected, forcing OldSkinRefresher
+[22:20:59] [Server thread/INFO]: §e[§2SkinsRestorer§e] §r[SkinsRestorer] Using SpigotSkinRefresher
+[22:20:59] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R3[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value PREFIX to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_CLEAR_OTHER to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_UPDATE_OTHER to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SKIN_SET_OTHER_URL to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_RELOAD to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_STATUS to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_DROP to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_SR_PROPS to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_DEFAULTCOMMAND to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINSET_OTHER to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINURL to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINUPDATE_OTHER to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SYNTAX_SKINCLEAR_OTHER to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_SKIN to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value PLAYER_HAS_NO_PERMISSION_URL to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_DISABLED to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINURL_DISALLOWED to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value NOT_PREMIUM to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value INVALID_PLAYER to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_COOLDOWN to messages.yml
+[22:20:59] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CHANGE_SUCCESS to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_SUCCESS to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKIN_CLEAR_ISSUER to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_UPDATING_SKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SUCCESS_UPDATING_SKIN_OTHER to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_SKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_URL to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_UPDATING_CUSTOMSKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_INVALID_URLSKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_FULL to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_MS_GENERIC to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value GENERIC_ERROR to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value WAIT_A_MINUTE to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ERROR_NO_SKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_OPEN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_TITLE_NEW to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_NEXT_PAGE to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_PREVIOUS_PAGE to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_REMOVE_SKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SKINSMENU_SELECT_SKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ADMIN_SET_SKIN to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value DATA_DROPPED to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value STATUS_OK to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value ALT_API_FAILED to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value MS_API_FAILED to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value NO_SKIN_DATA to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value RELOAD to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value OUTDATED to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value SR_LINE to messages.yml
+[22:21:00] [Server thread/INFO]: [SkinsRestorer] Saving new config value HELP_PLAYER to messages.yml
+[22:21:07] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta7-449
+[22:21:10] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[22:21:10] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[22:21:11] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[22:21:16] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[22:21:16] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[22:21:16] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[22:21:16] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[22:21:17] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[22:21:20] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[22:21:20] [Server thread/INFO]: [dynmap] version 3.1-beta7-449 is enabled - core version 3.1-beta7-449
+[22:21:20] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[22:21:20] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[22:21:20] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[22:21:20] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[22:21:20] [Server thread/INFO]: [dynmap] Loaded 6474 pending tile renders for world 'world'
+[22:21:20] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[22:21:20] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[22:21:20] [Server thread/INFO]: [dynmap] Enabled
+[22:21:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:21:21] [Server thread/INFO]: Done (203.511s)! For help, type "help"
+[22:21:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
+[22:21:22] [Server thread/INFO]: [SkinsRestorer] Activating ViaBackwards workaround.
+[22:21:22] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |   [0;34;1m[4m[21mBukkit only[0;32;1m |[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m14.0.0-SNAPSHOT[m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[22:21:22] [Craft Scheduler Thread - 1/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[22:21:23] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[22:21:23] [Server thread/WARN]: [ViaVersion] You are running a development version, please report any bugs to GitHub.
+[22:21:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5057ms or 101 ticks behind
+[22:21:27] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[22:21:47] [User Authenticator #1/INFO]: UUID of player nekkan is a26cb519-6dfb-3c83-83a7-9a9e707f61cf
+[22:21:50] [Server thread/INFO]: nekkan[/0:0:0:0:0:0:0:1%0:51114] logged in with entity id 46 at ([world]6907.5, 149.0, 5026.5)
+[22:21:59] [Async Chat Thread - #0/INFO]: <nekkan> a[m
+[22:22:13] [Server thread/WARN]: nekkan moved too quickly! 9.16398298801414,2.086094079315501,-3.7371768370167047
+[22:22:16] [User Authenticator #2/INFO]: UUID of player UmaPessoaQualk is 66514b28-c218-3268-b067-34b2b1c65749
+[22:22:17] [Server thread/INFO]: UmaPessoaQualk[/0:0:0:0:0:0:0:1%0:53304] logged in with entity id 83 at ([world]6910.5, 142.0, 5037.5)
+[22:22:22] [Async Chat Thread - #0/INFO]: <nekkan> bom dia[m
+[22:22:24] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> (b)ekkan[m
+[22:22:29] [Async Chat Thread - #0/INFO]: <nekkan> tem /skin[m
+[22:22:30] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> bodia[m
+[22:22:32] [Server thread/INFO]: UmaPessoaQualk issued server command: /skin dream
+[22:22:32] [Server thread/INFO]: nekkan issued server command: /ping
+[22:22:36] [Server thread/INFO]: [0;32;22m[WEB] 10.4.23.71: [0;37;1ma[m
+[22:22:37] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> sou o dream agora[m
+[22:22:37] [Async Chat Thread - #0/INFO]: <nekkan> EU NA OCOLOQUEI /PING SOU UM ANIMAL[m
+[22:22:38] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> bobao[m
+[22:22:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 41727ms or 834 ticks behind
+[22:22:44] [Server thread/INFO]: [0;32;22m[WEB] 10.4.3.101: [0;37;1mOS CARA FALANDO DO SITE[m
+[22:22:52] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> ala[m
+[22:22:52] [Server thread/INFO]: [0;32;22m[WEB] 10.4.3.101: [0;37;1mCRIANÇAS SE [m
+[22:22:53] [Async Chat Thread - #0/INFO]: <nekkan> foda q mostra[m
+[22:22:55] [Async Chat Thread - #0/INFO]: <nekkan> esse ip[m
+[22:22:56] [Async Chat Thread - #0/INFO]: <nekkan> que eu nao sei[m
+[22:22:57] [Async Chat Thread - #0/INFO]: <nekkan> de onde é[m
+[22:23:02] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> auto jump on[m
+[22:23:02] [Async Chat Thread - #0/INFO]: <nekkan> a[m
+[22:23:10] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> pq minecraft[m
+[22:23:12] [Async Chat Thread - #0/INFO]: <nekkan> se lagar é pq ta gerando o mapa no site[m
+[22:23:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5536ms or 110 ticks behind
+[22:23:23] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> meu pc ég aemrtr[m
+[22:23:24] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> bobao[m
+[22:23:24] [Async Chat Thread - #0/INFO]: <nekkan> eu to sem skin n osite aaaaaaaaaaaa[m
+[22:23:26] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> eita ta lagando[m
+[22:23:28] [Async Chat Thread - #0/INFO]: <nekkan> eu to faland ode ping[m
+[22:23:34] [Server thread/INFO]: [0;32;22m[WEB] 10.4.3.101: [0;37;1meu controlo o lag[m
+[22:23:34] [Async Chat Thread - #0/INFO]: <nekkan> eu to rodando liso pra carlho[m
+[22:23:38] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> tambem to[m
+[22:23:40] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> 150 fps[m
+[22:23:43] [Server thread/INFO]: [0;32;22m[WEB] 10.4.23.71: [0;37;1mchupa meu penis [m
+[22:23:48] [Async Chat Thread - #0/INFO]: <nekkan> que isso[m
+[22:23:49] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> pq tem uma[m
+[22:23:53] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> MADEIRA DE ABETO[m
+[22:23:57] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> mas nao e tronco[m
+[22:24:00] [Async Chat Thread - #0/INFO]: <nekkan> vo desativa o chat pelo console que putaria e essa[m
+[22:24:07] [Async Chat Thread - #0/INFO]: <nekkan> console nao[m
+[22:24:08] [Async Chat Thread - #0/INFO]: <nekkan> siter[m
+[22:24:11] [Async Chat Thread - #0/INFO]: <nekkan> com r[m
+[22:24:17] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> que isso[m
+[22:24:18] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> ?[m
+[22:24:36] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> esse server é almadiçoado[m
+[22:24:38] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> fiqueio com medo[m
+[22:25:03] [Server thread/INFO]: UmaPessoaQualk has made the advancement [Stone Age]
+[22:25:06] [Async Chat Thread - #0/INFO]: <nekkan> ´por que[m
+[22:25:11] [Server thread/INFO]: UmaPessoaQualk has made the advancement [Getting an Upgrade]
+[22:25:14] [Async Chat Thread - #0/INFO]: <nekkan> acho que aqui é o mnte everesrt mesmo[m
+[22:25:23] [Server thread/INFO]: nekkan issued server command: /dynmap reload
+[22:25:28] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> keepInventory?[m
+[22:25:28] [Server thread/INFO]: Made nekkan a server operator
+[22:25:32] [Async Chat Thread - #0/INFO]: <nekkan> nao[m
+[22:25:34] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> ta[m
+[22:25:35] [Server thread/INFO]: nekkan issued server command: /dynmap reload
+[22:25:35] [Server thread/INFO]: [dynmap] Disabling dynmap v3.1-beta7-449
+[22:25:35] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[22:25:35] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[22:25:35] [Server thread/INFO]: [dynmap] Saved 9027 pending tile renders in world 'world'
+[22:25:35] [Server thread/INFO]: [dynmap] Disabled
+[22:25:35] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta7-449
+[22:25:35] [Server thread/WARN]: Enabled plugin with unregistered PluginClassLoader dynmap v3.1-beta7-449
+[22:25:35] [Server thread/INFO]: [dynmap] Starting Scheduled Write Job (markerAPI).
+[22:25:35] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[22:25:35] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[22:25:35] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[22:25:35] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[22:25:35] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[22:25:35] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[22:25:35] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[22:25:35] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[22:25:35] [Server thread/INFO]: [dynmap] version 3.1-beta7-449 is enabled - core version 3.1-beta7-449
+[22:25:35] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[22:25:35] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[22:25:35] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[22:25:35] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[22:25:35] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[22:25:35] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[22:25:35] [Server thread/INFO]: [dynmap] Enabled
+[22:25:35] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[22:25:39] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> bakc?[m
+[22:25:40] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> back[m
+[22:25:49] [Async Chat Thread - #0/INFO]: <nekkan> quw[m
+[22:25:52] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> pq tacom madeira da jungle[m
+[22:25:55] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> o /back bobao[m
+[22:26:01] [Server thread/INFO]: nekkan issued server command: /back
+[22:26:01] [Async Chat Thread - #0/INFO]: <nekkan> ah[m
+[22:26:02] [Async Chat Thread - #0/INFO]: <nekkan> nao tem[m
+[22:26:05] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> rage[m
+[22:26:12] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> ativa o keep bunda[m
+[22:26:17] [Async Chat Thread - #0/INFO]: <nekkan> pra que[m
+[22:26:20] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> naosei[m
+[22:26:23] [Async Chat Thread - #0/INFO]: <nekkan> mal vai ter caverna[m
+[22:26:26] [Async Chat Thread - #0/INFO]: <nekkan> eu acho[m
+[22:26:27] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> pq[m
+[22:26:30] [Async Chat Thread - #0/INFO]: <nekkan> nao sei[m
+[22:26:34] [Async Chat Thread - #0/INFO]: <nekkan> eu acho que vai ter[m
+[22:26:35] [Server thread/INFO]: nekkan issued server command: /gamemode spectator
+[22:26:35] [Server thread/INFO]: [nekkan: Set own game mode to Spectator Mode]
+[22:26:37] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[22:26:39] [Async Chat Thread - #0/INFO]: <nekkan> si mtem[m
+[22:26:41] [Async Chat Thread - #0/INFO]: <nekkan> eu tava falando merda[m
+[22:26:45] [Async Chat Thread - #0/INFO]: <nekkan> mano[m
+[22:26:50] [Async Chat Thread - #0/INFO]: <nekkan> as caverna tem glowstone[m
+[22:26:50] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> pq caralhos[m
+[22:26:51] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> tem[m
+[22:26:51] [Async Chat Thread - #0/INFO]: <nekkan> porra e essa[m
+[22:26:53] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> um[m
+[22:26:54] [Async Chat Thread - #0/INFO]: <nekkan> ah tem nao[m
+[22:26:56] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> trigo[m
+[22:26:57] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> aqui[m
+[22:26:58] [Async Chat Thread - #0/INFO]: <nekkan> é só alguns lugares[m
+[22:26:58] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> ???[m
+[22:27:01] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> peguei[m
+[22:27:02] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> fosas[m
+[22:27:02] [Server thread/INFO]: nekkan issued server command: /gamemode survival
+[22:27:02] [Server thread/INFO]: [nekkan: Set own game mode to Survival Mode]
+[22:27:03] [Async Chat Thread - #0/INFO]: <nekkan> cade[m
+[22:27:06] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> da tp[m
+[22:27:06] [Server thread/INFO]: nekkan issued server command: /tp UmaPessoaQualk
+[22:27:06] [Server thread/INFO]: [nekkan: Teleported nekkan to UmaPessoaQualk]
+[22:27:09] [Server thread/INFO]: nekkan issued server command: /op @a
+[22:27:09] [Server thread/INFO]: [nekkan: Made nekkan a server operator]
+[22:27:12] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> tem literalmente[m
+[22:27:15] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> VEMC A[m
+[22:27:19] [Server thread/INFO]: UmaPessoaQualk issued server command: /tp nekkan UmaPessoaQualk
+[22:27:19] [Server thread/INFO]: [UmaPessoaQualk: Teleported nekkan to UmaPessoaQualk]
+[22:27:23] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> olha isso[m
+[22:27:24] [Async Chat Thread - #0/INFO]: <nekkan> tira essa skin[m
+[22:27:26] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> nao![m
+[22:27:27] [Async Chat Thread - #0/INFO]: <nekkan> agora[m
+[22:27:29] [Server thread/INFO]: nekkan was slain by UmaPessoaQualk
+[22:27:34] [Async Chat Thread - #0/INFO]: <nekkan> pq vc fez isso[m
+[22:27:36] [Server thread/INFO]: nekkan issued server command: /deop UmaPessoaQualk
+[22:27:36] [Server thread/INFO]: [nekkan: Made UmaPessoaQualk no longer a server operator]
+[22:27:37] [Async Chat Thread - #0/INFO]: <UmaPessoaQualk> nao sei[m
+[22:27:38] [Server thread/INFO]: nekkan issued server command: /tp UmaPessoaQualk
+[22:27:38] [Server thread/INFO]: [nekkan: Teleported nekkan to UmaPessoaQualk]
+[22:27:51] [Async Chat Thread - #0/INFO]: <nekkan> doente[m
+[22:27:51] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> belamontana[m
+[22:28:16] [Server thread/INFO]: nekkan issued server command: /tps
+[22:28:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> objetivo: achar mar[m
+[22:28:20] [Async Chat Thread - #1/INFO]: <nekkan> tps do sv ta mt bom[m
+[22:28:46] [Async Chat Thread - #1/INFO]: <nekkan> ta ficando de noite[m
+[22:28:48] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> uqe mapaéesse[m
+[22:28:50] [Async Chat Thread - #1/INFO]: <nekkan> e eu nao peguei ne mmadeira ainda[m
+[22:29:01] [Async Chat Thread - #1/INFO]: <nekkan> é o mapa do planeta terra em 1:6000 eu acho[m
+[22:29:03] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> quemapa e esse[m
+[22:29:04] [Async Chat Thread - #1/INFO]: <nekkan> 1:1600 na oelmbro ao certo[m
+[22:29:05] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> QUE[m
+[22:29:06] [Async Chat Thread - #1/INFO]: <nekkan> 1:1300 eu acho[m
+[22:29:08] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> SERIO?[m
+[22:29:12] [Async Chat Thread - #1/INFO]: <nekkan> sim[m
+[22:29:13] [Server thread/INFO]: UmaPessoaQualk has made the advancement [Monster Hunter]
+[22:29:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> POR ISSO TEM ESSAS MADEIRA[m
+[22:29:19] [Async Chat Thread - #1/INFO]: <nekkan> eu n tenho as coord de nada[m
+[22:29:20] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> DO NADA[m
+[22:29:24] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> QUE EM NADA HAVER[m
+[22:29:27] [Async Chat Thread - #1/INFO]: <nekkan> posso coloca de dia[m
+[22:29:27] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> COM O BIOMA[m
+[22:29:30] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pode[m
+[22:29:32] [Async Chat Thread - #1/INFO]: <nekkan> eu tava configurando[m
+[22:29:32] [Async Chat Thread - #1/INFO]: <nekkan> o sv[m
+[22:29:33] [Server thread/INFO]: nekkan issued server command: /rl
+[22:29:33] [Server thread/INFO]: nekkan: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[22:29:33] [Server thread/INFO]: nekkan: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[22:29:33] [Server thread/INFO]: Debug logging is disabled
+[22:29:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:29:33] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:29:33] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:29:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:29:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:29:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:29:33] [Server thread/INFO]: Max TNT Explosions: 100
+[22:29:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:29:33] [Server thread/INFO]: Mob Spawn Range: 6
+[22:29:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:29:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:29:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:29:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:29:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:29:33] [Server thread/INFO]: View Distance: 10
+[22:29:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:29:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:29:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:29:33] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:29:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:29:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:29:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:29:33] [Server thread/INFO]: Max TNT Explosions: 100
+[22:29:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:29:33] [Server thread/INFO]: Mob Spawn Range: 6
+[22:29:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:29:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:29:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:29:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:29:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:29:33] [Server thread/INFO]: View Distance: 10
+[22:29:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:29:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:29:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:29:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:29:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:29:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:29:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22:29:33] [Server thread/INFO]: Max TNT Explosions: 100
+[22:29:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:29:33] [Server thread/INFO]: Mob Spawn Range: 6
+[22:29:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Potato Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[22:29:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[22:29:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:29:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:29:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:29:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:29:33] [Server thread/INFO]: View Distance: 10
+[22:29:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:29:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22:29:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:29:33] [Server thread/INFO]: [dynmap] Disabling dynmap v3.1-beta7-449
+[22:29:33] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[22:29:33] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[22:29:33] [Server thread/INFO]: [dynmap] Saved 4113 pending tile renders in world 'world'
+[22:29:33] [Server thread/INFO]: [dynmap] Disabled
+[22:29:33] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.0.0-SNAPSHOT
+[22:29:33] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v1.5.3
+[22:29:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v3.2.0
+[22:29:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.2-SNAPSHOT
+[22:29:33] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[22:29:33] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[22:29:34] [Server thread/INFO]: Loaded 7 recipes
+[22:29:35] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[22:29:35] [Server thread/INFO]: Loaded 7 recipes
+[22:29:36] [Server thread/WARN]: Legacy plugin dynmap v3.1-beta7-449 does not specify an api-version.
+[22:29:36] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.2-SNAPSHOT
+[22:29:36] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.2-SNAPSHOT is now loaded, injecting!
+[22:29:36] [Server thread/ERROR]: [ViaVersion] ViaVersion is already loaded, this should work fine. If you get any console errors, try rebooting.
+[22:29:37] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[22:29:37] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[22:29:37] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[22:29:37] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[22:29:37] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[22:29:37] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[22:29:37] [Server thread/INFO]: [Ping] Loading Ping v1.3
+[22:29:37] [Server thread/INFO]: [ViaBackwards] Loading ViaBackwards v3.2.0
+[22:29:37] [Server thread/INFO]: [ViaRewind] Loading ViaRewind v1.5.3
+[22:29:37] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.0.0-SNAPSHOT
+[22:29:37] [Server thread/INFO]: [dynmap] Loading dynmap v3.1-beta7-449
+[22:29:37] [Server thread/INFO]: [dynmap] version=git-Spigot-37d799b-3eb7236 (MC: 1.16.4)
+[22:29:37] [Server thread/INFO]: [dynmap] Mod Support API available
+[22:29:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v3.2.0
+[22:29:37] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:29:37] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:29:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:29:38] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.13.2 -> 1.13 mappings...
+[22:29:38] [Via-Mappingloader-6/INFO]: [ViaVersion] Loading 1.15 -> 1.14 mappings...
+[22:29:38] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.13.2 mappings...
+[22:29:39] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.15 mappings...
+[22:29:39] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v1.5.3
+[22:29:39] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.2 -> 1.16 mappings...
+[22:29:39] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.13 -> 1.12 mappings...
+[22:29:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.2-SNAPSHOT
+[22:29:39] [Server thread/INFO]: [Ping] Enabling Ping v1.3
+[22:29:39] [Server thread/WARN]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[22:29:39] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.0.0-SNAPSHOT
+[22:29:39] [Server thread/INFO]: [SkinsRestorer] [!] WARNING [!] 
+[22:29:39] [Server thread/INFO]: [SkinsRestorer] Below message can be IGNORED, we will fix this in a later release!
+[22:29:39] [Server thread/INFO]: [SkinsRestorer] Unsupported plugin (ViaVersion or ProtocolSupport) detected, forcing OldSkinRefresher
+[22:29:39] [Server thread/INFO]: §e[§2SkinsRestorer§e] §r[SkinsRestorer] Using SpigotSkinRefresher
+[22:29:39] [Server thread/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1mDetected Minecraft [0;33;1mv1_16_R3[0;32;1m, using [0;33;1mUniversalSkinFactory[0;32;1m.[m
+[22:29:41] [Server thread/INFO]: [dynmap] Enabling dynmap v3.1-beta7-449
+[22:29:41] [Async Chat Thread - #1/INFO]: <nekkan> kk[m
+[22:29:41] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[22:29:41] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[22:29:41] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[22:29:42] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[22:29:42] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[22:29:42] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[22:29:42] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[22:29:42] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[22:29:42] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[22:29:42] [Server thread/INFO]: [dynmap] version 3.1-beta7-449 is enabled - core version 3.1-beta7-449
+[22:29:42] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[22:29:42] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[22:29:42] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[22:29:42] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[22:29:42] [Server thread/INFO]: [dynmap] Loaded 4113 pending tile renders for world 'world'
+[22:29:42] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[22:29:42] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[22:29:42] [Server thread/INFO]: [dynmap] Enabled
+[22:29:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:29:42] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pq tem trigo entao[m
+[22:29:42] [Server thread/INFO]: nekkan: [0;32;1mReload complete.[m
+[22:29:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8619ms or 172 ticks behind
+[22:29:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4(754)
+[22:29:42] [Server thread/INFO]: [SkinsRestorer] Activating ViaBackwards workaround.
+[22:29:42] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[22:29:42] [Server thread/INFO]: nekkan issued server command: /time set 90
+[22:29:42] [Server thread/INFO]: [nekkan: Set the time to 90]
+[22:29:42] [Server thread/INFO]: nekkan issued server command: /time set 0
+[22:29:42] [Server thread/INFO]: [nekkan: Set the time to 0]
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    | SkinsRestorer |[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |---------------|[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    |   [0;34;1m[4m[21mBukkit only[0;32;1m |[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    +===============+[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;36;1m    Current version: [0;32;1m14.0.0-SNAPSHOT[m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m    This is the latest version![m
+[22:29:42] [Craft Scheduler Thread - 4/INFO]: [0;33;1m[[0;32;22mSkinsRestorer[0;33;1m] [0;32;1m----------------------------------------------[m
+[22:29:42] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[22:29:43] [Server thread/WARN]: [ViaVersion] You are running a development version, please report any bugs to GitHub.
+[22:29:47] [Async Chat Thread - #1/INFO]: <nekkan> eu nao sei[m
+[22:29:49] [Server thread/INFO]: nekkan issued server command: /ping
+[22:29:51] [Async Chat Thread - #1/INFO]: <nekkan> coloquei /ping[m
+[22:29:51] [Async Chat Thread - #1/INFO]: <nekkan> MEU DEUS[m
+[22:29:53] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> wow ficou de dia[m
+[22:29:54] [Async Chat Thread - #1/INFO]: <nekkan> 600 DE PING KKKKKKKKKKK[m
+[22:29:55] [Server thread/INFO]: nekkan issued server command: /tps
+[22:29:57] [Server thread/INFO]: UmaPessoaQualk issued server command: /ping
+[22:29:59] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> 216[m
+[22:30:07] [Server thread/INFO]: nekkan issued server command: /ping
+[22:30:11] [Async Chat Thread - #1/INFO]: <nekkan> minha net ta horrivel hj[m
+[22:30:15] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> meio corasao[m
+[22:30:16] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> medo[m
+[22:30:27] [Server thread/INFO]: nekkan issued server command: /scoreboard objectives add penio health
+[22:30:27] [Server thread/INFO]: [nekkan: Created new objective [penio]]
+[22:30:31] [Server thread/INFO]: nekkan issued server command: /scoreboard objectives setdisplay list penio
+[22:30:31] [Server thread/INFO]: [nekkan: Set display slot list to show objective penio]
+[22:30:33] [Async Chat Thread - #1/INFO]: <nekkan> vida no tab uau[m
+[22:30:41] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> planeta terra é estranho[m
+[22:30:47] [Server thread/INFO]: nekkan issued server command: /advancement revoke nekkan everything
+[22:30:47] [Server thread/INFO]: [nekkan: Revoked 927 advancements from nekkan]
+[22:30:50] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> olha[m
+[22:30:53] [Server thread/INFO]: nekkan issued server command: /advancement revoke nekkan everything
+[22:30:53] [Server thread/INFO]: [nekkan: Revoked 927 advancements from nekkan]
+[22:30:54] [Async Chat Thread - #1/INFO]: <nekkan> o que[m
+[22:30:55] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> as flores[m
+[22:31:00] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> o minecraft devia[m
+[22:31:02] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ser assim[m
+[22:31:05] [Async Chat Thread - #1/INFO]: <nekkan> sim[m
+[22:31:10] [Async Chat Thread - #1/INFO]: <nekkan> é mo lindo esse mapa[m
+[22:31:13] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ss[m
+[22:31:19] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> olha a awa[m
+[22:31:30] [Async Chat Thread - #1/INFO]: <nekkan> que[m
+[22:31:33] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> a awa[m
+[22:31:37] [Async Chat Thread - #1/INFO]: <nekkan> o que é awa[m
+[22:31:39] [Async Chat Thread - #1/INFO]: <nekkan> agua?[m
+[22:31:42] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> agua[m
+[22:31:46] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> minecraft devia ser assim²[m
+[22:31:48] [Async Chat Thread - #1/INFO]: <nekkan> onde[m
+[22:31:51] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> aproveitar e pegaro trigo[m
+[22:31:52] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> why not[m
+[22:31:53] [Async Chat Thread - #1/INFO]: <nekkan> onde tem agua qui[m
+[22:31:55] [Async Chat Thread - #1/INFO]: <nekkan> aqui[m
+[22:31:55] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> aqui[m
+[22:32:02] [Async Chat Thread - #1/INFO]: <nekkan> manda suas coords[m
+[22:32:08] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> 661[m
+[22:32:10] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pera[m
+[22:32:17] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> 6610 5292[m
+[22:32:19] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ignora o y[m
+[22:32:21] [Async Chat Thread - #1/INFO]: <nekkan> ta[m
+[22:32:23] [Async Chat Thread - #1/INFO]: <nekkan> eu ja swei disso[m
+[22:32:48] [Async Chat Thread - #1/INFO]: <nekkan> nmrl vou colocar scoreboard de coordenada dps esse f3 ocupa mtt a tela[m
+[22:32:52] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> boa[m
+[22:32:58] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> COGUMELO MARROM[m
+[22:33:05] [Async Chat Thread - #1/INFO]: <nekkan> gg[m
+[22:33:09] [Async Chat Thread - #1/INFO]: <nekkan> agr é só achar vermelho e gg sopa[m
+[22:33:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> eu fiz umbarco em vez de pote[m
+[22:33:26] [Async Chat Thread - #1/INFO]: <nekkan> essas flores sao mt lindas[m
+[22:33:29] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ss[m
+[22:33:39] [Async Chat Thread - #1/INFO]: <nekkan> eu to usando bettergrass[m
+[22:33:44] [Async Chat Thread - #1/INFO]: <nekkan> ent fica mais bonito ainda[m
+[22:33:50] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> eu me dei blindness[m
+[22:33:55] [Async Chat Thread - #1/INFO]: <nekkan> que como[m
+[22:34:01] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> suspicious stew[m
+[22:34:03] [Async Chat Thread - #1/INFO]: <nekkan> trigo[m
+[22:34:07] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> bota uma flor[m
+[22:34:10] [Async Chat Thread - #1/INFO]: <nekkan> esse mapa é basicamente[m
+[22:34:13] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> e faz umas opa de cogumelo[m
+[22:34:13] [Async Chat Thread - #1/INFO]: <nekkan> pão garetis[m
+[22:34:16] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> s[m
+[22:34:20] [Async Chat Thread - #1/INFO]: <nekkan> plugin dee sopa de flor gg[m
+[22:34:28] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> é da 1.14 isso[m
+[22:34:30] [Async Chat Thread - #1/INFO]: <nekkan> COGU VERMELHO[m
+[22:34:31] [Async Chat Thread - #1/INFO]: <nekkan> pera[m
+[22:34:32] [Async Chat Thread - #1/INFO]: <nekkan> ja tijnha[m
+[22:34:34] [Async Chat Thread - #1/INFO]: <nekkan> sopa de flor?[m
+[22:34:35] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> s[m
+[22:34:37] [Async Chat Thread - #1/INFO]: <nekkan> n sabia[m
+[22:34:39] [User Authenticator #3/INFO]: UUID of player Heterio is 434b0dec-929b-3fd4-beb5-afe92e84f45e
+[22:34:39] [Server thread/INFO]: Heterio[/0:0:0:0:0:0:0:1%0:48184] logged in with entity id 2228 at ([world]6916.5, 141.0, 5040.5)
+[22:34:42] [Async Chat Thread - #1/INFO]: <nekkan> oi heteto[m
+[22:34:50] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> tem que pegar cogumeloo marrom e vermelho[m
+[22:34:51] [Async Chat Thread - #1/INFO]: <Heterio> 0/0 fps[m
+[22:34:53] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> botar com pote[m
+[22:34:56] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> e botaralguma flor[m
+[22:34:59] [Async Chat Thread - #1/INFO]: <nekkan> MEU DEUS QUE RIO LINDO[m
+[22:35:01] [Async Chat Thread - #1/INFO]: <Heterio> eu nasci[m
+[22:35:02] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> dependendo da flor vai dar efeito aleatorio[m
+[22:35:03] [Server thread/INFO]: nekkan issued server command: /tp Heterio
+[22:35:03] [Server thread/INFO]: [nekkan: Teleported nekkan to Heterio]
+[22:35:04] [Async Chat Thread - #1/INFO]: <Heterio> na camada[m
+[22:35:05] [Async Chat Thread - #1/INFO]: <Heterio> 175[m
+[22:35:17] [Async Chat Thread - #1/INFO]: <nekkan> vo faze pao fodase[m
+[22:35:31] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ponto de renascimento foi definido[m
+[22:35:37] [Async Chat Thread - #1/INFO]: <nekkan> cara ja tem cama[m
+[22:35:37] [Server thread/INFO]: nekkan issued server command: /difficulty
+[22:35:38] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> me dei blindnesss denovo[m
+[22:35:39] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> gg[m
+[22:35:39] [Server thread/INFO]: nekkan issued server command: /difficulty normal
+[22:35:39] [Server thread/INFO]: [nekkan: The difficulty has been set to Normal]
+[22:35:41] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> 2 cama[m
+[22:35:54] [Async Chat Thread - #1/INFO]: <nekkan> eu nao vi uma ovelha ate agr[m
+[22:35:56] [Async Chat Thread - #1/INFO]: <nekkan> tristr[m
+[22:36:00] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> matei todas[m
+[22:36:13] [Server thread/INFO]: nekkan has made the advancement [Stone Age]
+[22:36:16] [Async Chat Thread - #1/INFO]: <nekkan> acho que tamo no everest[m
+[22:36:20] [Async Chat Thread - #1/INFO]: <Heterio> acha?[m
+[22:36:22] [Async Chat Thread - #1/INFO]: <nekkan> quando o mapa carregar completamente[m
+[22:36:24] [Async Chat Thread - #1/INFO]: <nekkan> a gnt vai pro brasil[m
+[22:36:27] [Server thread/INFO]: nekkan issued server command: /dynmap
+[22:36:30] [Server thread/INFO]: nekkan issued server command: /dynmap fullrender
+[22:36:35] [Async Chat Thread - #1/INFO]: <nekkan> bora pro brasil a pe fodasekk[m
+[22:36:35] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ME DEI SATURATION[m
+[22:36:37] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> LETS GOOOOOOOOOO[m
+[22:36:58] [Async Chat Thread - #1/INFO]: <nekkan> esse mapa é mt bonito meu deuss[m
+[22:37:00] [Async Chat Thread - #1/INFO]: <Heterio> you'ree going do brazil[m
+[22:37:00] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> SS[m
+[22:37:02] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> o mapa que[m
+[22:37:03] [Server thread/INFO]: Heterio has made the advancement [Stone Age]
+[22:37:03] [Server thread/INFO]: nekkan has made the advancement [Getting an Upgrade]
+[22:37:04] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ensopado suspeito[m
+[22:37:04] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ama[m
+[22:37:09] [Server thread/INFO]: Heterio has made the advancement [Getting an Upgrade]
+[22:37:10] [Async Chat Thread - #1/INFO]: <nekkan> como faz ensopado suspeito[m
+[22:37:13] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ja te falei[m
+[22:37:18] [Async Chat Thread - #1/INFO]: <Heterio> hora de desmatar a amazonia[m
+[22:37:21] [Async Chat Thread - #1/INFO]: <nekkan> mas precisa de qnts flor[m
+[22:37:22] [Async Chat Thread - #1/INFO]: <nekkan> 2 nao foi[m
+[22:37:22] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> faz uma sopa de cogumelo normal só que com uma flor[m
+[22:37:32] [Async Chat Thread - #1/INFO]: <nekkan> ue nao foi[m
+[22:37:35] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> tiro print pra tu se qu-iser[m
+[22:37:36] [Async Chat Thread - #1/INFO]: <nekkan> tem q ser uma especifica?[m
+[22:37:44] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pode ser qualquer flor[m
+[22:37:48] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> dependendo dela[m
+[22:37:53] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> vai te dar um efeito aleatorio[m
+[22:37:58] [Async Chat Thread - #1/INFO]: <nekkan> tlg[m
+[22:38:04] [Async Chat Thread - #1/INFO]: <nekkan> vou pegar o coiso ali pra ver se vai[m
+[22:38:06] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> vai no discord[m
+[22:38:16] [Async Chat Thread - #1/INFO]: <nekkan> AAAAA[m
+[22:38:20] [Async Chat Thread - #1/INFO]: <nekkan> ttem q colocar os cogu juno[m
+[22:38:21] [Async Chat Thread - #1/INFO]: <Heterio> pq tem uma platnação de trigo no meo do nada?[m
+[22:38:28] [Async Chat Thread - #1/INFO]: <nekkan> ngm sabe[m
+[22:38:29] [Async Chat Thread - #1/INFO]: <nekkan> mas é perfeito[m
+[22:38:40] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> nao é qualquer flor[m
+[22:38:42] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> mas é muitas[m
+[22:38:46] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> tipo a orquidea azul[m
+[22:38:49] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> te da saturation[m
+[22:38:53] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> por 0.35 segundos[m
+[22:38:53] [Async Chat Thread - #1/INFO]: <nekkan> meu deus tem mt flor[m
+[22:38:58] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ss[m
+[22:39:06] [Async Chat Thread - #1/INFO]: <nekkan> bora fazer o jardim dona florinda[m
+[22:39:09] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> KKKKK[m
+[22:39:27] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> é tipo poção[m
+[22:39:29] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pote edition[m
+[22:39:41] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> a oxeye daisy da healing[m
+[22:39:45] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> por 6 segundos[m
+[22:39:46] [Server thread/INFO]: nekkan issued server command: /locate fortress
+[22:39:48] [Server thread/INFO]: nekkan issued server command: /locate igloo
+[22:39:50] [Server thread/INFO]: nekkan issued server command: /locate bastion_remnant
+[22:39:54] [Server thread/INFO]: nekkan issued server command: /locate mineshaft
+[22:40:02] [Async Chat Thread - #1/INFO]: <nekkan> acho que nao tem nenhuma estrutura default do jogo aqui kk[m
+[22:40:06] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> aka margarida[m
+[22:40:07] [Async Chat Thread - #1/INFO]: <nekkan> sem ser as caverna e pa[m
+[22:40:09] [Server thread/INFO]: nekkan issued server command: /locate village
+[22:40:14] [Async Chat Thread - #1/INFO]: <nekkan> vila acho que nao tem em nenhum lugar[m
+[22:40:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> caralho[m
+[22:40:22] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> vo ficar cheoio de healing][m
+[22:40:23] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> meus fodases[m
+[22:40:25] [Async Chat Thread - #1/INFO]: <nekkan> zumbi de dia me udeus[m
+[22:40:29] [Server thread/INFO]: nekkan has made the advancement [Monster Hunter]
+[22:40:32] [Async Chat Thread - #1/INFO]: <nekkan> quual q faz healing[m
+[22:40:36] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> margarida[m
+[22:40:42] [Async Chat Thread - #1/INFO]: <nekkan> qual nome em ingles[m
+[22:40:44] [Server thread/INFO]: UmaPessoaQualk has made the advancement [Sweet Dreams]
+[22:40:45] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> mimir[m
+[22:40:48] [Async Chat Thread - #1/INFO]: <nekkan> aq tem mt zumbi pqp[m
+[22:40:51] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> gf[m
+[22:40:52] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> f[m
+[22:40:58] [Async Chat Thread - #1/INFO]: <nekkan> peguei night visino[m
+[22:41:02] [Server thread/INFO]: Heterio has made the advancement [Monster Hunter]
+[22:41:12] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> imagina essa sopa na caverna[m
+[22:41:20] [Async Chat Thread - #1/INFO]: <nekkan> vo morre askojdasioksda[m
+[22:41:20] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> a allium da fire resistance[m
+[22:41:25] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pena que é por 2 segundos[m
+[22:41:27] [Async Chat Thread - #1/INFO]: <nekkan> imagina esse mapa[m
+[22:41:28] [Async Chat Thread - #1/INFO]: <nekkan> na 1.17[m
+[22:41:30] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> imagina[m
+[22:41:31] [Async Chat Thread - #1/INFO]: <Heterio> caralho a sopa suspeita regena pra caralgho[m
+[22:41:34] [Async Chat Thread - #1/INFO]: <nekkan> co mas caverna[m
+[22:41:42] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> a cornflower[m
+[22:41:43] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> aka flor azul[m
+[22:41:45] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> da jump boost[m
+[22:41:47] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> por 4 segundos[m
+[22:41:56] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> as tulipas dão fraqueza[m
+[22:42:02] [Async Chat Thread - #1/INFO]: <nekkan> morri[m
+[22:42:02] [Async Chat Thread - #1/INFO]: <nekkan> f[m
+[22:42:04] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> a lily of the valley da poison[m
+[22:42:05] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> f[m
+[22:42:08] [Async Chat Thread - #1/INFO]: <nekkan> morri nao[m
+[22:42:12] [Async Chat Thread - #1/INFO]: <nekkan> CARALHO EU AMO ESSES PA OVSF[m
+[22:42:15] [Async Chat Thread - #1/INFO]: <nekkan> LOVE PAO[m
+[22:42:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> margarida e dandelion[m
+[22:42:26] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> dao saturation[m
+[22:42:37] [Async Chat Thread - #1/INFO]: <nekkan> vo pega mais nighdavidao[m
+[22:42:38] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> calma[m
+[22:42:39] [Async Chat Thread - #1/INFO]: <nekkan> nighdavisao[m
+[22:42:46] [Async Chat Thread - #1/INFO]: <Heterio> o nether tá que nem o nether no mudno real?[m
+[22:42:48] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> iae[m
+[22:42:50] [Async Chat Thread - #1/INFO]: <nekkan> IAEE[m
+[22:42:51] [Async Chat Thread - #1/INFO]: <nekkan> EU VO MORRE[m
+[22:43:02] [Async Chat Thread - #1/INFO]: <nekkan> nether acho q ta normasl[m
+[22:43:12] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> eclado bugou[m
+[22:43:12] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> f[m
+[22:43:24] [Async Chat Thread - #1/INFO]: <nekkan> eu lembro q eu ja fiz um plugin de explosao q os bloco saia voando[m
+[22:43:29] [Async Chat Thread - #1/INFO]: <nekkan> mas eu perdi[m
+[22:43:35] [Server thread/INFO]: nekkan has made the advancement [Sweet Dreams]
+[22:43:37] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> saia[m
+[22:43:40] [Async Chat Thread - #1/INFO]: <nekkan> ja sai[m
+[22:43:44] [Async Chat Thread - #1/INFO]: <nekkan> n qebra[m
+[22:43:45] [Async Chat Thread - #1/INFO]: <nekkan> pf[m
+[22:43:48] [Server thread/INFO]: nekkan was shot by Skeleton
+[22:43:50] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> o de saturation nao vale apena[m
+[22:43:51] [Async Chat Thread - #1/INFO]: <nekkan> obg[m
+[22:44:08] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> só 35 milisegundos[m
+[22:44:15] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ata[m
+[22:44:15] [Server thread/INFO]: nekkan issued server command: /save-all
+[22:44:16] [Server thread/INFO]: [nekkan: Saved the game]
+[22:44:16] [Async Chat Thread - #1/INFO]: <Heterio> minerar nesse mundo é deveras dificil[m
+[22:44:21] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> os valores queeufalei era da bedrock[m
+[22:44:23] [Async Chat Thread - #1/INFO]: <nekkan> QUANTOS ESQUELET OTEM NESSA PORRA[m
+[22:44:30] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ulipas da weakness por 9 segundos[m
+[22:44:36] [Async Chat Thread - #1/INFO]: <Heterio> a flor amarela dá saturação[m
+[22:44:36] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> margarida dahealing por 8[m
+[22:44:43] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> s[m
+[22:44:47] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> a azul tbm[m
+[22:44:59] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ola enderman[m
+[22:45:06] [Server thread/INFO]: UmaPessoaQualk was slain by Enderman
+[22:45:10] [Async Chat Thread - #1/INFO]: <Heterio> kkkkkkkkkkkkkkkkk[m
+[22:45:17] [Async Chat Thread - #1/INFO]: <Heterio> "ola enderman"[m
+[22:45:21] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> nem olhei pra essa vadia[m
+[22:45:23] [Async Chat Thread - #1/INFO]: <Heterio> UmaPessoaQualk was slan by Enderman[m
+[22:45:31] [Async Chat Thread - #1/INFO]: <nekkan> 4 night[m
+[22:45:34] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> zumbi com espada de ferro[m
+[22:45:34] [Async Chat Thread - #1/INFO]: <nekkan> vision[m
+[22:45:38] [Async Chat Thread - #1/INFO]: <nekkan> usei 2[m
+[22:45:42] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> a de healing é foda[m
+[22:45:44] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pq tipo[m
+[22:45:45] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> voce ta laga[m
+[22:45:47] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> com pouca vida[m
+[22:45:47] [Async Chat Thread - #1/INFO]: <nekkan> esse mapa é uma benção[m
+[22:45:50] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pouca fome[m
+[22:45:53] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> e vai la[m
+[22:45:55] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> regenração[m
+[22:46:00] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> + 3[m
+[22:46:02] [Async Chat Thread - #1/INFO]: <nekkan> pão e sopa :pray:[m
+[22:46:06] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> essa sopa é uma benção[m
+[22:46:07] [Async Chat Thread - #1/INFO]: <Heterio> regenração[m
+[22:46:15] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> zumbi natações[m
+[22:46:27] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> melhor de tudo[m
+[22:46:29] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> facil de fazer[m
+[22:46:43] [Async Chat Thread - #1/INFO]: <nekkan> como vai ser am migraçao de mundo[m
+[22:46:45] [Async Chat Thread - #1/INFO]: <nekkan> da 1.17[m
+[22:46:53] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ninguem sabe[m
+[22:47:05] [Async Chat Thread - #1/INFO]: <nekkan> bora faze bau de flor[m
+[22:47:09] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> bora[m
+[22:47:12] [Async Chat Thread - #1/INFO]: <nekkan> as migraçao de conta[m
+[22:47:14] [Async Chat Thread - #1/INFO]: <nekkan> começa em abril[m
+[22:47:21] [Server thread/INFO]: UmaPessoaQualk was slain by Spider
+[22:47:34] [Async Chat Thread - #1/INFO]: <nekkan> aq o bau[m
+[22:47:36] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> zumbi virou fogado[m
+[22:47:42] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> MINI AFOGAOD[m
+[22:47:43] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> MINI DEMONIO[m
+[22:47:48] [Server thread/INFO]: nekkan issued server command: /deop @a[name=!nekkan]
+[22:47:50] [Server thread/INFO]: nekkan issued server command: /summon minecraft:wolf
+[22:47:50] [Server thread/INFO]: [nekkan: Summoned new Wolf]
+[22:47:57] [Server thread/INFO]: nekkan issued server command: /give nekkan bone 10
+[22:47:57] [Server thread/INFO]: [nekkan: Gave 10 [Bone] to nekkan]
+[22:47:58] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> F MACHSAOF[m
+[22:47:59] [Server thread/INFO]: nekkan has made the advancement [Best Friends Forever]
+[22:48:01] [Async Chat Thread - #1/INFO]: <nekkan> gg[m
+[22:48:08] [Async Chat Thread - #1/INFO]: <nekkan> VEM CA DAN[m
+[22:48:11] [Async Chat Thread - #1/INFO]: <nekkan> FARM DE FLOR[m
+[22:48:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> TA[m
+[22:48:28] [Async Chat Thread - #1/INFO]: <nekkan> bonemeal p krl[m
+[22:48:29] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> toino[m
+[22:48:32] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> to com 9[m
+[22:48:37] [Async Chat Thread - #1/INFO]: <nekkan> to com 27[m
+[22:48:38] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> vo pegar asmargarida[m
+[22:48:48] [Async Chat Thread - #1/INFO]: <nekkan> é a amarela ne[m
+[22:48:49] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> nao consigo[m
+[22:48:51] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> irei memata[m
+[22:48:51] [Server thread/INFO]: UmaPessoaQualk was slain by Zombie
+[22:49:05] [Async Chat Thread - #1/INFO]: <nekkan> vem aqui metaforando[m
+[22:49:10] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> pronto[m
+[22:49:12] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> escapei zumbi[m
+[22:49:15] [Async Chat Thread - #1/INFO]: <nekkan> metaforando is back[m
+[22:49:15] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> escapei do zumbi[m
+[22:49:17] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> deumaformamoderna[m
+[22:49:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> vem ca ver[m
+[22:49:20] [Async Chat Thread - #1/INFO]: <nekkan> aq[m
+[22:49:22] [Async Chat Thread - #1/INFO]: <nekkan> bora faze aq[m
+[22:49:30] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> amarela da saturation[m
+[22:49:42] [Async Chat Thread - #1/INFO]: <nekkan> vermelho da night[m
+[22:49:47] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> nekkan[m
+[22:49:52] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> NAO MEMATE[m
+[22:49:58] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> lobo bravo[m
+[22:49:59] [Async Chat Thread - #1/INFO]: <nekkan> ELE NA OSENTA[m
+[22:50:03] [Async Chat Thread - #1/INFO]: <nekkan> ae[m
+[22:50:11] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> tome[m
+[22:50:14] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> ele nao quer[m
+[22:50:15] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> medo[m
+[22:50:18] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> seulobo me odeia[m
+[22:50:20] [Async Chat Thread - #1/INFO]: <nekkan> pois eu qeuro[m
+[22:50:26] [Async Chat Thread - #1/INFO]: <nekkan> KKK?[m
+[22:50:27] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> farm[m
+[22:50:29] [Async Chat Thread - #1/INFO]: <nekkan> FARM[m
+[22:50:32] [Async Chat Thread - #1/INFO]: <Heterio> meu irmão tá morrendo[m
+[22:50:34] [Async Chat Thread - #1/INFO]: <Heterio> eu to tremendo[m
+[22:50:37] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> que?[m
+[22:50:44] [Async Chat Thread - #1/INFO]: <Heterio> ele nao tá respirando[m
+[22:50:45] [Async Chat Thread - #1/INFO]: <nekkan> tó[m
+[22:50:46] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> QUE[m
+[22:50:48] [Async Chat Thread - #1/INFO]: <nekkan> 16[m
+[22:50:51] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> eita[m
+[22:50:53] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> muito[m
+[22:51:00] [Async Chat Thread - #1/INFO]: <nekkan> QUE[m
+[22:51:04] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> oq[m
+[22:51:07] [Async Chat Thread - #1/INFO]: <nekkan> TEU IRMAO MORREU?[m
+[22:51:15] [Async Chat Thread - #1/INFO]: <Heterio> nao[m
+[22:51:19] [Async Chat Thread - #1/INFO]: <Heterio> ele parou de respirar[m
+[22:51:22] [Async Chat Thread - #1/INFO]: <Heterio> e começou a ficar roxo[m
+[22:51:25] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> problema é[m
+[22:51:28] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> EITA[m
+[22:51:29] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> QUE[m
+[22:51:37] [Async Chat Thread - #1/INFO]: <UmaPessoaQualk> problema é os cogumelos[m
+[22:51:49] [Async Chat Thread - #1/INFO]: <nekkan> nao precisa nem de farm de pao[m
+[22:51:51] [Async Chat Thread - #1/INFO]: <nekkan> ja tem no mapa[m
+[22:51:53] [Server thread/INFO]: nekkan issued server command: /save-all
+[22:51:53] [Server thread/INFO]: [nekkan: Saved the game]
