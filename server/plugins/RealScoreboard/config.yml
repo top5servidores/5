@@ -15,33 +15,19 @@ Config:
   Scoreboard:
     world:
       Lines:
+      - '&8%localtime_time%'
       - '%blank%'
-      - '&fLocalização:'
-      - ' &fX: &b%x%'
-      - ' &fY: &b%y%'
-      - ' &fZ: &b%z%'
+      - '&f%javascript_daysymbol_{player_world_time_24}% &7%player_world_time_12%'
+      - '&f⏣ &b%javascript_capitalize_{player_biome}%'
       - '%blank%'
-      - '&fLatência: &3%ping%'
+      - '&fLatência: &b%ping%'
+      - '&fExperiência: &3☄%player_total_exp%'
       - '%blank%'
-      - '&7%ram%, %time%'
+      - '&f✚ Missão'
+      - '&eIndisponível &70%'
+      - '%blank%'
       Title:
-      - '&6&lEarth'
-      - '&6&lEarth'
-      - '&6&lEarth'
-      - '&6&lEarth'
-      - '&6&lEarth'
-      - '&e&lE&f&la&6&lrth'
-      - '&e&lEa&f&lr&6&lth'
-      - '&e&lEar&f&lt&6&lh'
-      - '&e&lEart&f&lh'
-      - '&e&lEarth'
-      - '&e&lEarth'
-      - '&e&lEar&f&lt&6&lh'
-      - '&e&lEa&f&lr&6&lth'
-      - '&e&lE&f&la&6&lrth'
-      - '&f&lE&6&larth'
-      - '&6&lEarth'
-      - '&6&lEarth'
+      - '&e&lEARTH'
 Version: 3
 PlayerData:
   nekkan:

@@ -8,12 +8,31 @@
 # Discord: https://helpch.at/discord
 # No placeholders are provided with this plugin by default.
 # Download placeholders: /papi ecloud
-check_updates: true
-cloud_enabled: true
-cloud_sorting: "name"
-cloud_allow_unverified_expansions: false
-boolean:
-  'true': 'yes'
-  'false': 'no'
-date_format: MM/dd/yy HH:mm:ss
-debug: false
+expansions:
+  formatter:
+    time:
+      hours: h
+      seconds: s
+      days: d
+      condensed: false
+      minutes: m
+    format: '#,###,###.##'
+    locale: en-US
+  localtime:
+    date_format: dd/MM/yyyy hh:mma
+  server:
+    tps_color:
+      high: '&a'
+      low: '&c'
+      medium: '&e'
+    server_name: A Minecraft Server
+  javascript:
+    debug: false
+    github_script_downloads: false
+    engine: javascript
+    argument_split: ','
+  player:
+    ping_color:
+      medium: '&e'
+      high: '&a'
+      low: '&c'

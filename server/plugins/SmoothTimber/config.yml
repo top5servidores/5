@@ -1,3 +1,4 @@
+version: 7
 global:
   debug: false
   sync-time: 50
@@ -13,12 +14,12 @@ cutter:
   - NETHERITE_AXE
 options:
   cutter:
-    sneak: none
-    toggleable: 'on'
     sync-detection: false
     permission:
       wood-type: false
       cutter-type: false
+    sneak: none
+    toggleable: 'on'
 limit:
   enabled: true
   default: 1000
