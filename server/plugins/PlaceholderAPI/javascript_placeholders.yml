@@ -28,3 +28,5 @@ capitalize:
   file: capitalize.js
 daysymbol:
   file: day_symbol.js
+dimension:
+  file: dimension.js

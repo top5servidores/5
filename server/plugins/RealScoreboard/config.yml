@@ -20,11 +20,10 @@ Config:
       - '&f%javascript_daysymbol_{player_world_time_24}% &7%player_world_time_12%'
       - '&f⏣ &b%javascript_capitalize_{player_biome}%'
       - '%blank%'
-      - '&fLatência: &b%ping%'
+      - '&fDimensão: %javascript_dimension_{player_world}%'
       - '&fExperiência: &3☄%player_total_exp%'
       - '%blank%'
-      - '&f✚ Missão'
-      - '&eIndisponível &70%'
+      - '&d⌘ &fZona livre, &c❤ &f%player_health_rounded%, &e☕ &f%player_food_level%'
       - '%blank%'
       Title:
       - '&e&lEARTH'
