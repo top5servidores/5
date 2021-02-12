@@ -1,8 +1,8 @@
 %YAML 1.1
 ---
 0:0:0:0:0:0:0:1%0:
+- lukiwo0
 - nekkan
 - Heterio
-- lukiwo0
 - Jubzinho
 - UmaPessoaQualk

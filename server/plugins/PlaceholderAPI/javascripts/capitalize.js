@@ -7,7 +7,7 @@ String.prototype.capitalize = function() {
 }
 
 function generate_string() {
-    return string.replace('_', ' ').toLowerCase().capitalize();
+    return string.replaceAll('_', ' ').toLowerCase().capitalize();
 }
 
 generate_string();

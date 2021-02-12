@@ -15,7 +15,7 @@ Config:
   Scoreboard:
     world:
       Lines:
-      - '&8%localtime_time%'
+      - '&7%localtime_time%'
       - '%blank%'
       - '&f%javascript_daysymbol_{player_world_time_24}% &7%player_world_time_12%'
       - '&f⏣ &b%javascript_capitalize_{player_biome}%'
@@ -23,7 +23,7 @@ Config:
       - '&fDimensão: %javascript_dimension_{player_world}%'
       - '&fExperiência: &3☄%player_total_exp%'
       - '%blank%'
-      - '&d⌘ &fZona livre, &c❤ &f%player_health_rounded%, &e☕ &f%player_food_level%'
+      - '&c❤ &f%player_health_rounded%/%player_max_health_rounded%, &e☕ &f%player_food_level%, &d⌘ &f%player_level%'
       - '%blank%'
       Title:
       - '&e&lEARTH'
