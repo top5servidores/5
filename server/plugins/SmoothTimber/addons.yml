@@ -1,0 +1,11 @@
+addons:
+  CoreProtect: true
+  Lands: true
+  Jobs: true
+  mcMMO: true
+  Residence: true
+  BlockyLog: true
+  GriefPrevention: true
+  LogBlock: true
+  PlaceholderAPI: true
+  WorldGuard: true

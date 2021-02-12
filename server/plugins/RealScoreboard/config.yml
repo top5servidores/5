@@ -7,7 +7,7 @@ Config:
       'OFF': '&fModo de scoreboard alternado para &cDESATIVADO&f.'
   Animations:
     Rainbow-Delay: 10
-    Title-Delay: 20
+    Title-Delay: 1
   Scoreboard-Refresh: 10
   Disabled-Worlds:
   - testWorld
@@ -25,7 +25,23 @@ Config:
       - '%blank%'
       - '&7%ram%, %time%'
       Title:
-      - '&8&oInformações'
+      - '&6&lEarth'
+      - '&6&lEarth'
+      - '&6&lEarth'
+      - '&6&lEarth'
+      - '&6&lEarth'
+      - '&e&lE&f&la&6&lrth'
+      - '&e&lEa&f&lr&6&lth'
+      - '&e&lEar&f&lt&6&lh'
+      - '&e&lEart&f&lh'
+      - '&e&lEarth'
+      - '&e&lEarth'
+      - '&e&lEar&f&lt&6&lh'
+      - '&e&lEa&f&lr&6&lth'
+      - '&e&lE&f&la&6&lrth'
+      - '&f&lE&6&larth'
+      - '&6&lEarth'
+      - '&6&lEarth'
 Version: 3
 PlayerData:
   nekkan:
