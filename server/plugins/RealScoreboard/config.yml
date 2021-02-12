@@ -1,0 +1,32 @@
+Config:
+  Prefix: '&3&lSCOREBOARD '
+  Reloaded: '&fThe config has been &areloaded&f.'
+  Messages:
+    Scoreboard-Toggle:
+      'ON': '&fModo de scoreboard alternado para &aATIVADO&f.'
+      'OFF': '&fModo de scoreboard alternado para &cDESATIVADO&f.'
+  Animations:
+    Rainbow-Delay: 10
+    Title-Delay: 20
+  Scoreboard-Refresh: 10
+  Disabled-Worlds:
+  - testWorld
+  - ExampleWorld2
+  Scoreboard:
+    world:
+      Lines:
+      - '%blank%'
+      - '&fLocalização:'
+      - ' &fX: &b%x%'
+      - ' &fY: &b%y%'
+      - ' &fZ: &b%z%'
+      - '%blank%'
+      - '&fLatência: &3%ping%'
+      - '%blank%'
+      - '&7%ram%, %time%'
+      Title:
+      - '&8&oInformações'
+Version: 3
+PlayerData:
+  nekkan:
+    ScoreboardON: true
