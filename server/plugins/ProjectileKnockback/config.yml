@@ -1,0 +1,17 @@
+# This plugin was created by Excel8392. It is fine to repost this plugin elsewhere, just please
+# credit me! You can also see this plugin on my github: https://github.com/klokailo/ProjectileKnockback/ 
+#
+# Functionalities:
+enabled: true
+snowball: true
+egg: true
+enderpearl: true
+#
+
+#
+# Other options:
+# This allows you to have the plugin enabled only for a certain list of worlds.
+# Set this to false if you want to only enable it in certain worlds.
+cross-world: true
+# If you have set the option above to false, then select the worlds you would like here:
+worlds-enabled: []
