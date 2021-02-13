@@ -23,7 +23,8 @@ Config:
       - '&fDimensão: %javascript_dimension_{player_world}%'
       - '&fExperiência: &3☄%player_total_exp%'
       - '%blank%'
-      - '&c❤ &f%player_health_rounded%/%player_max_health_rounded%, &e☕ &f%player_food_level%, &d⌘ &f%player_level%'
+      - '&c❤ &f%player_health_rounded%/%player_max_health_rounded%, &e☕ &f%player_food_level%,
+        &d⌘ &f%player_level%'
       - '%blank%'
       Title:
       - '&e&lEARTH'
@@ -34,4 +35,10 @@ PlayerData:
   lukiwo0:
     ScoreboardON: true
   Heterio:
+    ScoreboardON: true
+  MystAnorak:
+    ScoreboardON: true
+  PedroNervovin:
+    ScoreboardON: true
+  Yuyu_:
     ScoreboardON: true

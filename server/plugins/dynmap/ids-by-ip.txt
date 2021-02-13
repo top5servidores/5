@@ -1,8 +1,11 @@
 %YAML 1.1
 ---
 0:0:0:0:0:0:0:1%0:
-- lukiwo0
+- Yuyu_
+- PedroNervovin
 - nekkan
+- MystAnorak
+- lukiwo0
 - Heterio
 - Jubzinho
 - UmaPessoaQualk

@@ -40,22 +40,22 @@ messages:
   chat:
     enabled: true
     message-cooldown: 5 # The amount of time in seconds before a player can send another bed enter or leave message
-    player-sleeping: "&e[player] is now sleeping ([sleeping]/[needed], [more] more needed to skip)."
-    player-left-bed: "&e[player] got out of bed ([sleeping]/[needed], [more] more needed to skip)."
+    player-sleeping: "&7&l☽ &fO jogador &7[player] &festá tentando dormir. &7([sleeping]/[needed], necessitando [more])."
+    player-left-bed: "&7&l☽ &fO jogador &7[player] &fdesceu da cama. &7([sleeping]/[needed], necessitando [more])."
     night-skipping:
-      - "&eAccelerating the night."
-      - "&eRapidly approaching daytime."
+      - "&e&l☀ &fRapidamente alcançando o período da manhã."
+      - "&e&l☀ &fRapidamente alcançando o período da manhã."
     night-skipped:
-      - "&eThe night has been skipped."
-      - "&eAhhh, finally morning."
-      - "&eArghh, it's so bright outside."
-      - "&eRise and shine."
+      - "&e&l☀ &fO período noturno foi pulado."
+      - "&e&l☀ &fAh, finalmente de dia."
+      - "&e&l☀ &fÉ tão claro..."
+      - "&e&l☀ &fq isso lek tmj"
   actionbar:
-    enabled: true
+    enabled: false
     players-sleeping: "&e[sleeping] out of [needed] players are sleeping ([more] more needed to skip)"
     night-skipping: "&eEveryone is sleeping- sweet dreams!"
   bossbar:
-    enabled: true
+    enabled: false
     players-sleeping:
       message: "&f&l[sleeping] out of [needed] are sleeping &7&l([more] more needed)"
       color: BLUE
