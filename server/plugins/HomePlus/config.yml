@@ -45,7 +45,7 @@ HomeSettings:
   # ➤ DO NOT USE SPECIAL CHARACTERS
   DefaultHomeName: "default"
   # ➤ The maximum number of houses per player
-  MaxDefaultPlayerHomes: 2
+  MaxDefaultPlayerHomes: 99
   # ➤ Appears after reaching the maximum limit of houses
   Need_VIP:
     - "&7"
@@ -63,7 +63,7 @@ HomeSettings:
     - "&8&m----------------( &d&lH&5&lP &8&m)----------------"  
   # ➤ VIP RANK
   VIP:
-    MaxVipHomes: 5
+    MaxVipHomes: 100
     Need_MVP:
       - "&7"
       - "&7"
@@ -80,7 +80,7 @@ HomeSettings:
       - "&8&m----------------( &d&lH&5&lP &8&m)----------------" 
   # ➤ MVP RANK
   MVP:
-    MaxMvpHomes: 8
+    MaxMvpHomes: 101
     MaxLimit:
       - "&7"
       - "&7"

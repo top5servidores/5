@@ -7,7 +7,7 @@ function get_dimension() {
         case 'world_nether':
             return '&4☠ Nether';
         case 'world_the_end':
-            return '&d۞ Dimensão do Fim';
+            return '&d۞ The End';
     }
     return '&c☠ Unknown'
 }

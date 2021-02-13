@@ -19,3 +19,24 @@ Everest:
   Yaw: 175.64995
   Pitch: 16.036469
   World: world
+End:
+  X: 78
+  Y: 61
+  Z: 1
+  Yaw: 161.23431
+  Pitch: 3.8004494
+  World: world_the_end
+Spawn:
+  X: 6900
+  Y: 154
+  Z: 5024
+  Yaw: 304.9459
+  Pitch: 8.820583
+  World: world
+EndPortal:
+  X: 6904
+  Y: 88
+  Z: 5039
+  Yaw: -152.62592
+  Pitch: 20.795498
+  World: world

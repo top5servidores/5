@@ -21,9 +21,9 @@ Config:
       - '&f⏣ &b%javascript_capitalize_{player_biome}%'
       - '%blank%'
       - '&fDimensão: %javascript_dimension_{player_world}%'
-      - '&fExperiência: &3☄%player_total_exp%'
+      - '&fExperiência: &3☄%formatter_number_format_{player_total_exp}%'
       - '%blank%'
-      - '&c❤ &f%player_health_rounded%/%player_max_health_rounded%, &e☕ &f%player_food_level%,
+      - '&c❤ &f%player_health_scale%/%player_max_health_rounded%, &e☕ &f%player_food_level%,
         &d⌘ &f%player_level%'
       - '%blank%'
       Title:

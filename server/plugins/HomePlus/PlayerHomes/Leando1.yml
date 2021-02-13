@@ -1,0 +1,28 @@
+overworld:
+  X: 29999728
+  Y: 60
+  Z: 29999806
+  Yaw: -118.05126
+  Pitch: 55.30144
+  World: world
+default:
+  X: 18202
+  Y: 43
+  Z: 7946
+  Yaw: -48.098343
+  Pitch: 9.493592
+  World: world
+end:
+  X: -8
+  Y: 59
+  Z: 36
+  Yaw: 5.887085
+  Pitch: 8.857472
+  World: world_the_end
+endcity:
+  X: 1660
+  Y: 62
+  Z: 697
+  Yaw: -51.123955
+  Pitch: 12.06578
+  World: world_the_end
