@@ -1,0 +1,100 @@
+#      __  __     ______     __    __     ______     ______   __         __  __     ______    
+#     /\ \_\ \   /\  __ \   /\ "-./  \   /\  ___\   /\  == \ /\ \       /\ \/\ \   /\  ___\   
+#     \ \  __ \  \ \ \/\ \  \ \ \-./\ \  \ \  __\   \ \  _-/ \ \ \____  \ \ \_\ \  \ \___  \  
+#      \ \_\ \_\  \ \_____\  \ \_\ \ \_\  \ \_____\  \ \_\    \ \_____\  \ \_____\  \/\_____\ 
+#       \/_/\/_/   \/_____/   \/_/  \/_/   \/_____/   \/_/     \/_____/   \/_____/   \/_____/ 
+#                                                                                             
+#                       Hey Man! Thanks for downloading HomePlus 
+#       ✦     If you like this plugin don"t forget to rate it 5★ on the spigot page        ✦
+#    ---------------------------------------------------------------------------------------------
+#                               This plugin works correctly! 
+#            If you find errors, report them on spigot in the discussion section
+#                   [1.9 - 1.10 - 1.11 - 1.12 - 1.13 - 1.14 - 1.15 - 1.16]
+#        
+#
+Configurations:
+  # ➤ Main plugin messages
+  Messages:
+    # ➤ Plugin prefix
+    Prefix: "&8(&dHome&5Plus&8)&8 » " 
+    # ➤ You shouldn"t change this
+    FatalError: "&c&lERROR! &c&oAn error has occured, please contact &b_peppeee24_"
+    # ➤ PERMISSION: homeplus.reload
+    NoReloadPermission: "&7You don t have the permission &8(&bhomeplus.reload&8)"
+  # ➤ Titles & SubTitles Settings
+  Titles_And_Subtitles:
+    FadeIn: 5
+    Stay: 20
+    FadeOut: 5
+  # ➤ Time for the teleportation
+  TeleportSettings:
+    Countdown: 5
+#
+#
+#
+#
+#      ______     ______     ______   ______   __     __   __     ______     ______    
+#     /\  ___\   /\  ___\   /\__  _\ /\__  _\ /\ \   /\ "-.\ \   /\  ___\   /\  ___\   
+#     \ \___  \  \ \  __\   \/_/\ \/ \/_/\ \/ \ \ \  \ \ \-.  \  \ \ \__ \  \ \___  \  
+#      \/\_____\  \ \_____\    \ \_\    \ \_\  \ \_\  \ \_\\"\_\  \ \_____\  \/\_____\ 
+#       \/_____/   \/_____/     \/_/     \/_/   \/_/   \/_/ \/_/   \/_____/   \/_____/ 
+#                                                                                                                                                                 
+#
+#
+HomeSettings:
+  # ➤ DO NOT USE SPECIAL CHARACTERS
+  DefaultHomeName: "default"
+  # ➤ The maximum number of houses per player
+  MaxDefaultPlayerHomes: 2
+  # ➤ Appears after reaching the maximum limit of houses
+  Need_VIP:
+    - "&7"
+    - "&7"
+    - "&7"
+    - "&8&m----------------( &d&lH&5&lP &8&m)----------------"
+    - "&7                                                    "
+    - "&6&o      Limit Reached &8- &7Requires &a&l[VIP]      "
+    - "&7                                                    "
+    - "&7 Visit our shop if you want to receive more         "
+    - "&d                    Houses                          "
+    - "&7                                                    "
+    - "&b          shop.homeplusforlife.net                  "
+    - "&7                                                    "
+    - "&8&m----------------( &d&lH&5&lP &8&m)----------------"  
+  # ➤ VIP RANK
+  VIP:
+    MaxVipHomes: 5
+    Need_MVP:
+      - "&7"
+      - "&7"
+      - "&7"
+      - "&8&m----------------( &d&lH&5&lP &8&m)----------------"
+      - "&7                                                    "
+      - "&3&o      Limit Reached &8- &7Requires &b&l[MVP]      "
+      - "&7                                                    "
+      - "&7 Visit our shop if you want to receive more         "
+      - "&d                    Houses                          "
+      - "&7                                                    "
+      - "&b          shop.homeplusforlife.net                  "
+      - "&7                                                    "
+      - "&8&m----------------( &d&lH&5&lP &8&m)----------------" 
+  # ➤ MVP RANK
+  MVP:
+    MaxMvpHomes: 8
+    MaxLimit:
+      - "&7"
+      - "&7"
+      - "&7"
+      - "&8&m----------------( &d&lH&5&lP &8&m)----------------"
+      - "&7                                                    "
+      - "&c&o   House Limit Reached!&e Vote me on spigot :D    "
+      - "&7                                                    "
+      - "&8&m----------------( &d&lH&5&lP &8&m)----------------" 
+
+World:
+  Disabled:
+    - Lobby
+    - SkyPvP
+    - CustomWorldName
+    - VoteMeOnSpigot
+    - Five_Stars

@@ -1,0 +1,46 @@
+SetHome:
+  Usage:
+    Message: '&1&lHOMES&f Uso correto: &f/sethome (nome)'
+    TitleMessage: '&e&lWhoops'
+    SubTitleMessage: '&7Type /sethome <name>'
+  Messages:
+    HomeSet: '&7Your &anew &7home has &ebeen set!'
+    TitleHomeSet: '&8(&a&l!&8) &a&oHomeSet &8(&a&l!&8)'
+    SubTitleHomeSet: '&aYour new home has been set!'
+    WorldDisabled: '&7You cannot use &ethis command &7in this &eworld!'
+DelHome:
+  Usage:
+    Message: '&bError! &7You must type &e/delhome <name>'
+    TitleMessage: '&e&lWhoops'
+    SubTitleMessage: '&7Type /delhome <name>'
+  Messages:
+    Deleted: '&7You have &acorrectly deleted &7this house: %delhome%'
+    TitleDeleted: '&a&lDeleted!'
+    SubTitleDeleted: '&a&oHouse deleted correctly!'
+  NotFound:
+    Message: '&7No house was found with the &ename: %delhome%'
+    TitleMessage: '&c&lHey!'
+    SubTitleMessage: '&e&oHouse not found'
+Home:
+  Messages:
+    List: '&7You own these &ehouses:'
+  NotFound:
+    Message: '&7You have no houses, set one by &etyping &d/sethome <name>'
+    TitleMessage: '&6&lHEY!'
+    SubTitleMessage: '&7You must &e&oown a house'
+Teleport:
+  Usage:
+    Message: '&c&lWrong syntax! &7Type &e&o/home <name>'
+    TitleMessage: '&9Whooops!'
+    SubTitleMessage: '&7Type &e/home <name>'
+  Messages:
+    Message: '&7You have &ebeen teleported &7to this house: &d%home%'
+    TitleMessage: '&aTeleported!'
+    SubTitleMessage: '&dHome sweet &5home'
+  NotFound:
+    Message: '&6Whoops! &7Home &d%home% &7not &e&ofound'
+    TitleMessage: '&3Error'
+    SubTitleMessage: '&7No &dhouse found &7with that &ename'
+  Countdown:
+    Message: '&7You ll be teleported in &e&o'
+    SubTitleMessage: '&7Teleporting...'

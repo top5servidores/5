@@ -1,0 +1,21 @@
+BrasilLitoral:
+  X: 18207
+  Y: 41
+  Z: 7955
+  Yaw: -231.13045
+  Pitch: -2.2102244
+  World: world
+default:
+  X: 18206
+  Y: 41
+  Z: 7955
+  Yaw: -204.22733
+  Pitch: 4.456665
+  World: world
+Everest:
+  X: 6911
+  Y: 185
+  Z: 4781
+  Yaw: 175.64995
+  Pitch: 16.036469
+  World: world
