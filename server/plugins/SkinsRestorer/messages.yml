@@ -1,35 +1,33 @@
-PREFIX: '&e[&2SkinsRestorer&e] '
-HELP_SKIN_CLEAR: Clears your skin.
-HELP_SKIN_CLEAR_OTHER: Clears the skin of another player.
-HELP_SKIN_UPDATE: Updates your skin.
-HELP_SKIN_UPDATE_OTHER: Updates the skin of another player.
-HELP_SKIN_SET: Set the skin of another player.
-HELP_SKIN_SET_OTHER: Sets the skin of another player.
-HELP_SKIN_SET_OTHER_URL: Set a skin by Image_url.png
-HELP_SR_RELOAD: Reloads the configuration file.
-HELP_SR_STATUS: Checks plugin needed API services
-HELP_SR_DROP: Removes players or skin data.
-HELP_SR_PROPS: Displays the players current skin properties.
-SYNTAX_DEFAULTCOMMAND: ' <skin/url>'
-SYNTAX_SKINSET: ' <skin>'
-SYNTAX_SKINSET_OTHER: ' <target> <skin/url>'
-SYNTAX_SKINURL: ' <url>'
-SYNTAX_SKINUPDATE_OTHER: ' <target>'
-SYNTAX_SKINCLEAR_OTHER: ' <target>'
-PLAYER_HAS_NO_PERMISSION_SKIN: '&4Error&8: &cYou don''t have permission to set this
-  skin.'
-PLAYER_HAS_NO_PERMISSION_URL: '&4Error&8: &cYou don''t have permission to set skins
-  by URL.'
-SKIN_DISABLED: '&4Error&8: &cThis skin is disabled by an administrator.'
-SKINURL_DISALLOWED: '&4Error&8: &cThis domain has not been allowed by the administrator.'
-NOT_PREMIUM: '&4Error&8: &cPremium player with that name does not exist.'
-INVALID_PLAYER: '&4Error&8: &c%player is not a valid username or URL.'
-SKIN_COOLDOWN: '&4Error&8: &cYou can change your skin again in &e%s &cseconds.'
-SKIN_CHANGE_SUCCESS: '&2Your skin has been changed.'
-SKIN_CLEAR_SUCCESS: '&2Your skin has been cleared.'
-SKIN_CLEAR_ISSUER: '&2Skin cleared for player %player.'
+PREFIX: '&6&lSKINS '
+HELP_SKIN_CLEAR: Limpa sua skin atual.
+HELP_SKIN_CLEAR_OTHER: Limpa a skin de outro jogador.
+HELP_SKIN_UPDATE: Atualiza a sua skin.
+HELP_SKIN_UPDATE_OTHER: Atualiza a skin de outro jogador.
+HELP_SKIN_SET: Define a skin de outro jogador.
+HELP_SKIN_SET_OTHER: Define a skin de outro jogdor.
+HELP_SKIN_SET_OTHER_URL: Define a skin de outro jogador por Image_url.png.
+HELP_SR_RELOAD: Carrega o arquivo de configuração.
+HELP_SR_STATUS: Checa o estado dos serviços de API necessários.
+HELP_SR_DROP: Remove os dados de uma skin ou de um jogador.
+HELP_SR_PROPS: Mostra as propriedades da skin de um jogador.
+SYNTAX_DEFAULTCOMMAND: ' (skin|url)'
+SYNTAX_SKINSET: ' (skin)'
+SYNTAX_SKINSET_OTHER: ' (jogador) (skin|url)'
+SYNTAX_SKINURL: ' (url)'
+SYNTAX_SKINUPDATE_OTHER: ' (jogador)'
+SYNTAX_SKINCLEAR_OTHER: ' (jogador)'
+PLAYER_HAS_NO_PERMISSION_SKIN: 'Esta tarefa não pode ser concluída por falta de permissões.'
+PLAYER_HAS_NO_PERMISSION_URL: 'Esta tarefa não pode ser concluída por falta de permissões..'
+SKIN_DISABLED: 'Skin desativada pelo administrador.'
+SKINURL_DISALLOWED: 'Domínio desativado pelo administrador.'
+NOT_PREMIUM: 'Skin não encontrada.'
+INVALID_PLAYER: '&c%player não é um nome válido ou URL.'
+SKIN_COOLDOWN: 'Você pode trocar seu nome novamente em &6%s segundos&f.'
+SKIN_CHANGE_SUCCESS: 'Skin alterada com sucesso!'
+SKIN_CLEAR_SUCCESS: 'Skin limpa com sucesso!'
+SKIN_CLEAR_ISSUER: 'Skin limpa com sucesso!'
 MS_UPDATING_SKIN: '&2Uploading skin, please wait...(This may take up some time)'
-SUCCESS_UPDATING_SKIN: '&2Your skin has been updated.'
+SUCCESS_UPDATING_SKIN: 'Skin atualizada com sucesso!'
 SUCCESS_UPDATING_SKIN_OTHER: '&2Skin updated for player %player.'
 ERROR_UPDATING_SKIN: '&4Error&8: &cAn error occurred while updating your skin. Please
   try again later!'
@@ -63,7 +61,6 @@ OUTDATED: "&4You are running an outdated version of SkinsRestorer!\n&cPlease upd
   \ to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
 SR_LINE: '&7&m----------------------------------------'
 HELP_PLAYER: |2-
-    &2&lSkinsRestorer &7- &f&lv%ver%
-     &2/skin <skinname> &7-&f Changes your skin.
-      &2/skin update &7-&f Updates your skin.
-      &2/skin clear &7-&f Clears your skin.
+  &3/skin (skin) &b- &fAltera sua skin atual.
+  &3/skin update &b- &fAtualiza sua skin.
+  &3/skin clear &b- &fLimpa sua skin.

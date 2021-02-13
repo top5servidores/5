@@ -1,0 +1,62 @@
+# Permissions
+permissions:
+  reload: supremetpa.reload
+  tpa: supremetpa.tpa
+  tpahere: supremetpa.tpa
+  tp: supremetpa.tp
+  tphere: supremetpa.tp
+  settings: supremetpa.settings
+  toggled:
+    requests: supremetpa.toggle.requests
+    sound: supremetpa.toggle.sound
+    firework: supremetpa.toggle.firework
+
+# Messages
+
+usage:
+  tp: "&9&lTPA&f Para solicitar um teleporte a um jogador, use &9/tpa (jogador)&f."
+  tphere: "&9&lTPA&f Para solicitar um teleporte de um jogador a você, use &9/tphere (jogador)&f."
+  tpa: "&9&lTPA&f Para solicitar um teleporte a um jogador, use &9/tpa (jogador)&f."
+  tpahere: "&9&lTPA&f Para solicitar um teleporte de um jogador a você, use &9/tphere (jogador)&f."
+
+tp:
+  teleported: "&9&lTPA&f Você foi teleportado a &9%target%."
+
+tphere:
+  teleported: "&9&lTPA&f Você foi teleportou &9%player% até você."
+
+tpa:
+  sent: "&9&lTPA&f Você enviou um pedido de teleporte até &9%target%&f."
+  recieved: "&9&lTPA&f Você recebeu um pedido de teleporte de &9%player%."
+  recieved-tpahere: "&9&lTPA&f Você recebeu um pedido para se teleportar até &9%player%."
+  accept: "&a&l[ACEITAR]"
+  or: " &fou "
+  deny: "&c&l[NEGAR]"
+  accepted: "&9&lTPA&f Você aceitou o pedido de teleporte."
+  denied: "&9&lTPA&f Você negou o pedido de teleporte."
+  player-accepted: "&9&lTPA&9 %player% &faceitou seu pedido de teleporte." # If you disable the delay, remove after the comma as %time% will be disabled.
+  player-denied: "&9&lTPA&9 %player% &fnegou seu pedido de teleporte."
+
+toggled:
+  requests:
+    incoming: "&e&lTP &7| &fThis player has TPA Requests &cdisabled&f!"
+    turned-on: "&e&lTP &7| &fYou have &aenabled &fyour Teleport Requests"
+    turned-off: "&e&lTP &7| &fYou have &cdisabled &fyour Teleport Requests"
+  sound:
+    turned-on: "&e&lTP &7| &fYou have &aenabled &fthe teleport sound"
+    turned-off: "&e&lTP &7| &fYou have &cdisabled &fthe teleport sound"
+  firework:
+    turned-on: "&e&lTP &7| &fYou have &aenabled &fthe teleport firework"
+    turned-off: "&e&lTP &7| &fYou have &cdisabled &fthe teleport firework"
+
+misc:
+  no-permission: "&4&lERROR! &cYou have no permission!"
+  offline: "&c&lTPA&f Jogador não encontrado."
+  no-requests: "&c&lTPA&f Nenhum pedido encontrado."
+  reloaded: "&e&lTP &7| &cConfiguartion Reloaded!"
+
+# Extra
+tp-delay:
+  enabled: false
+  delay: 5 # in seconds
+tpa-sound: ENTITY_ENDERMAN_TELEPORT
