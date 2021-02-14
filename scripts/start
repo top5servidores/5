@@ -17,6 +17,6 @@ fi
 
 source "$ROOT_NMS/scripts/environment"
 
-export JAVA_TOOL_OPTIONS=-Xmx14G
-(cd "$ROOT_NMS/server" && java -Xms14G -Xmx14G -jar "${properties[jar_type]}-${properties[version]}.jar" nogui)
+export JAVA_TOOL_OPTIONS=-Xmx16G
+(cd "$ROOT_NMS/server" && java -jar "${properties[jar_type]}-${properties[version]}.jar")
 (cd "$ROOT_NMS/scripts" && ./save)
