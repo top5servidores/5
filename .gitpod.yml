@@ -10,3 +10,5 @@ ports:
     onOpen: "ignore"
   - port: 25565
     onOpen: "ignore"
+  - port: 8123
+    onOpen: "ignore"

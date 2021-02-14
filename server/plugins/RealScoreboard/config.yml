@@ -21,7 +21,7 @@ Config:
       - '&f⏣ &b%javascript_capitalize_{player_biome}%'
       - '%blank%'
       - '&fDimensão: %javascript_dimension_{player_world}%'
-      - '&fExperiência: &3☄%formatter_number_format_{player_total_exp}%'
+      - '&fEsmeraldas: &2☄%money%'
       - '%blank%'
       - '&c❤ &f%player_health_scale%/%player_max_health_rounded%, &e☕ &f%player_food_level%,
         &d⌘ &f%player_level%'
@@ -51,4 +51,6 @@ PlayerData:
   GalinhasDoMexico:
     ScoreboardON: true
   Daxner:
+    ScoreboardON: true
+  NicollyLolizinha:
     ScoreboardON: true
