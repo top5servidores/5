@@ -99,7 +99,7 @@ world-settings:
     count-all-mobs-for-spawning: false
     per-player-mob-spawns: false
     should-remove-dragon: false
-    ender-dragons-death-always-places-dragon-egg: false
+    ender-dragons-death-always-places-dragon-egg: true
     falling-block-height-nerf: 0
     tnt-entity-height-nerf: 0
     enable-treasure-maps: true

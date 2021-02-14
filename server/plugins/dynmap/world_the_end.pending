@@ -1,0 +1,143 @@
+%YAML 1.1
+---
+invZoomOut:
+    st:
+    - &id001 [
+        ]
+    - *id001
+    - [
+        ]
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    -   - ffffffff/0:80000000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - *id001
+    flat:
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    - [
+        ]
+    -   - 1/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/2000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/2000:0/2000:0/2000:0/2000:0/0:0/0:0/2000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:60/0:60/0:60/0:60/0:60/0:10/0:20/0:60/0:60/0:70/0:60/0:70/0:70/0:70/0:70/0:60/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/40000:0/40000:0/40000:0/60000:0/60000:0/60000:0/60000:0/60000:0/20000:0/20000:0/20000:0/20000:0/20000:0/20000
+    -   - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/100:0/100:0/100:0/100:0/100:0/100:0/100
+        - 0/0:0/100:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10:0/10:0/10
+        - 0/0:0/10:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+job:
+    mapindex: 0
+    czmax: 2147483647
+    activemaps: flat
+    cxmax: 2147483647
+    renderedmaps:
+    - flat
+    locZ: 0.0
+    count: 4496
+    locX: 0.0
+    locY: 63.0
+    rendertype: Full render
+    timeaccum: 452016
+    world: world_the_end
+    found:
+    - 0/0:ffffffff/ffffffff:ffffffff/ffffffff:3ffff/ffffffff:3ffff/ffffffff:3ffff/ffffffff:3ffff/ffffffff:1ffff/ffffffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/1fffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/ffffffff:0/0:0/0:0/0:0/0:fffffc00/0:fffffc00/0:fffffc00/0:fffffc00/0:fffffc00/0:fffffc00/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:fffffff8/0:ffffffff/0:ffffffff/0:ffffffff/0:ffffffff/0:ffffffff/0:ffffffff/e0000000:ffffffff/f0000000:ffffffff/f0000000:ffffffff/f0000000:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffff80:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff
+    - ffffffff/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0
+    - ffffffff/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffffe000/0:ffff0000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 1/ffffffff:0/0:0/0:0/0:0/0:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/7fff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1ff:0/1f:0/7:0/3:0/3
+    - 1/0:0/3:0/1:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    rendered:
+    - 0/0:ffffffff/ffffffff:1ffff/ffffffff:1ffff/ffffffff:1ffff/ffffffff:1ffff/ffffffff:ffff/ffffffff:0/fffff:0/fffff:0/fffff:0/fffff:0/fffff:0/fffff:0/fffff:0/fffff:0/fffff:0/fffff:0/fffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 0/ffffffff:0/0:0/0:0/0:0/0:0/0:fffff800/0:fffff800/0:fffff800/0:fffff800/0:fffff800/0:fffff800/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffff0/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:fffffffe/0:ffffffff/c0000000:ffffffff/e0000000:ffffffff/e0000000:ffffffff/e0000000:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffff00:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff:ffffffff/ffffffff
+    - ffffffff/ffffffff:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0
+    - ffffffff/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:ffffc000/0:fffe0000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - 1/ffffffff:0/0:0/0:0/0:0/0:0/0:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/3fff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/ff:0/f:0/3:0/1:0/1:0/1
+    activemapcnt: 1
+    cxmin: -2147483648
+    czmin: -2147483648
+    map: flat
+    queue:
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 77,-24,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-60,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-58,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-59,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-56,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-57,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-54,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-55,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-52,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-53,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-50,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-51,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-48,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-49,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-46,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-47,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-44,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-45,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-42,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-43,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-40,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-41,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-38,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-39,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-36,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-37,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-34,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-35,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-32,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-33,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-30,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-31,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-28,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-29,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-26,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-27,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-24,iso_S_90_lowres,0
+    -   class: org.dynmap.hdmap.HDMapTile
+        data: 78,-25,iso_S_90_lowres,0
+    player: nekkan

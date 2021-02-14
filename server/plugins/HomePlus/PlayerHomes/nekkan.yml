@@ -40,3 +40,38 @@ EndPortal:
   Yaw: -152.62592
   Pitch: 20.795498
   World: world
+bastion1:
+  X: 1893
+  Y: 90
+  Z: 878
+  Yaw: 87.757385
+  Pitch: 39.080563
+  World: world_nether
+Amazonia:
+  X: 18113
+  Y: 67
+  Z: 6793
+  Yaw: 68.28793
+  Pitch: 21.177181
+  World: world
+EndGateway1:
+  X: 986
+  Y: 59
+  Z: 351
+  Yaw: -19.322042
+  Pitch: -17.376728
+  World: world_the_end
+sim:
+  X: 834
+  Y: 6
+  Z: 419
+  Yaw: -266.53662
+  Pitch: 5.796261
+  World: world_the_end
+EndermanFarm:
+  X: 837
+  Y: 3
+  Z: 419
+  Yaw: 88.21338
+  Pitch: 4.428215
+  World: world_the_end

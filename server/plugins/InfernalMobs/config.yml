@@ -13,7 +13,7 @@
 configVersion: 'git-Paper-468 (MC: 1.16.5)'
 chance: 99
 namePrefix: '&fEpic'
-nameTagsLevel: 1
+nameTagsLevel: 2
 nameTagsName: '&f<prefix> <mobName>'
 bossBarsName: '&f<prefix> <mobName> Nível <mobLevel>'
 enableBossBar: true
@@ -41,7 +41,8 @@ spawnMessages:
 - '&cSomething is coming...'
 - '&cYou hear a mob nearby...'
 mobworlds:
-- <all>
+- 'world'
+- 'world_nether'
 effectworlds:
 - <all>
 enabledmobs:

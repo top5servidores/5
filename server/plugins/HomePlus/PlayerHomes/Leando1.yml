@@ -26,3 +26,24 @@ endcity:
   Yaw: -51.123955
   Pitch: 12.06578
   World: world_the_end
+endportal:
+  X: 6904
+  Y: 87
+  Z: 5036
+  Yaw: -157.66415
+  Pitch: 30.402126
+  World: world
+tartaruga:
+  X: 29998584
+  Y: 64
+  Z: 29999418
+  Yaw: 75.57239
+  Pitch: 22.511766
+  World: world
+enderman:
+  X: 837
+  Y: 6
+  Z: 419
+  Yaw: 117.25362
+  Pitch: 17.768656
+  World: world_the_end

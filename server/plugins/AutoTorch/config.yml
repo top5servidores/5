@@ -4,7 +4,7 @@
 # As of v1.2.0, if you upgraded from an older version use 'player.frominventory' instead of 'frominventory'
 player:
   frominventory: true
-  creativebypass: false
+  creativebypass: true
   torchinhand: true
   torchinoffhand: true
 plugin:

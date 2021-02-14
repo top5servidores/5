@@ -1,0 +1,6 @@
+# Hello there!
+# 
+# There is nothing that needs to be changed here.
+# This file is for is for storing all the players when the server
+# is reloaded or restarted.
+uuids: []
