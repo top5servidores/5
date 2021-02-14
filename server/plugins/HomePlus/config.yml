@@ -16,11 +16,11 @@ Configurations:
   # ➤ Main plugin messages
   Messages:
     # ➤ Plugin prefix
-    Prefix: "&8(&dHome&5Plus&8)&8 » " 
+    Prefix: "" 
     # ➤ You shouldn"t change this
-    FatalError: "&c&lERROR! &c&oAn error has occured, please contact &b_peppeee24_"
+    FatalError: "&fUm erro ocorreu."
     # ➤ PERMISSION: homeplus.reload
-    NoReloadPermission: "&7You don t have the permission &8(&bhomeplus.reload&8)"
+    NoReloadPermission: "&fVocê não tem permissão para recarregar a configuração."
   # ➤ Titles & SubTitles Settings
   Titles_And_Subtitles:
     FadeIn: 5
@@ -28,7 +28,7 @@ Configurations:
     FadeOut: 5
   # ➤ Time for the teleportation
   TeleportSettings:
-    Countdown: 5
+    Countdown: 1
 #
 #
 #

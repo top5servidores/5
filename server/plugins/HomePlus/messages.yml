@@ -1,46 +1,47 @@
 SetHome:
   Usage:
-    Message: '&1&lHOMES&f Uso correto: &f/sethome (nome)'
-    TitleMessage: '&e&lWhoops'
-    SubTitleMessage: '&7Type /sethome <name>'
+    Message: '&5&lHOMES&f Uso correto: &f/sethome (nome)'
+    TitleMessage: '&4&lHOMES'
+    SubTitleMessage: '&fUso correto: &f/sethome (nome)'
   Messages:
-    HomeSet: '&7Your &anew &7home has &ebeen set!'
-    TitleHomeSet: '&8(&a&l!&8) &a&oHomeSet &8(&a&l!&8)'
-    SubTitleHomeSet: '&aYour new home has been set!'
+    HomeSet: '&5&lHOMES&f Home criada com sucesso!'
+    TitleHomeSet: '&5&lHOMES'
+    SubTitleHomeSet: Home criada com sucesso!
     WorldDisabled: '&7You cannot use &ethis command &7in this &eworld!'
 DelHome:
   Usage:
-    Message: '&bError! &7You must type &e/delhome <name>'
-    TitleMessage: '&e&lWhoops'
-    SubTitleMessage: '&7Type /delhome <name>'
+    Message: '&5&lHOMES&f Uso correto: &f/delhome (nome)'
+    TitleMessage: '&4&lHOMES'
+    SubTitleMessage: '&fUso correto: &f/delhome (nome)'
   Messages:
-    Deleted: '&7You have &acorrectly deleted &7this house: %delhome%'
-    TitleDeleted: '&a&lDeleted!'
-    SubTitleDeleted: '&a&oHouse deleted correctly!'
+    Deleted: '&5&lHOMES&f Home deletada com sucesso!'
+    TitleDeleted: '&5&lHOMES'
+    SubTitleDeleted: '&fHome deletada com sucesso!'
   NotFound:
-    Message: '&7No house was found with the &ename: %delhome%'
-    TitleMessage: '&c&lHey!'
-    SubTitleMessage: '&e&oHouse not found'
+    Message: '&4&lHOMES&f Home não encontrada.'
+    TitleMessage: '&4&lHOMES'
+    SubTitleMessage: '&fHome não encontrada.'
 Home:
   Messages:
-    List: '&7You own these &ehouses:'
+    List: '&5&lHOMES '
   NotFound:
-    Message: '&7You have no houses, set one by &etyping &d/sethome <name>'
-    TitleMessage: '&6&lHEY!'
-    SubTitleMessage: '&7You must &e&oown a house'
+    Message: '&5&lHOMES&f Nenhuma home encontrada na sua conta. Você pode criá-las
+      utilizando &5/sethome (nome)&f.'
+    TitleMessage: '&5&lHOMES'
+    SubTitleMessage: '&fVocê precisa &5possuir&f uma home!'
 Teleport:
   Usage:
-    Message: '&c&lWrong syntax! &7Type &e&o/home <name>'
-    TitleMessage: '&9Whooops!'
-    SubTitleMessage: '&7Type &e/home <name>'
+    Message: '&4&lHOMES&f Uso correto: &f/home (nome).'
+    TitleMessage: '&4&lHOMES&f'
+    SubTitleMessage: '&fUso correto: &f/home (nome).'
   Messages:
-    Message: '&7You have &ebeen teleported &7to this house: &d%home%'
-    TitleMessage: '&aTeleported!'
-    SubTitleMessage: '&dHome sweet &5home'
+    Message: '&5&lHOMES&f Você se teleportou para a home &5%home%&f.'
+    TitleMessage: '&5&lHOMES'
+    SubTitleMessage: '&fBem-vindo de volta!'
   NotFound:
-    Message: '&6Whoops! &7Home &d%home% &7not &e&ofound'
-    TitleMessage: '&3Error'
-    SubTitleMessage: '&7No &dhouse found &7with that &ename'
+    Message: '&4&lHOMES&f Home não encontrada.'
+    TitleMessage: '&4&lHOMES'
+    SubTitleMessage: '&fEssa home não foi encontrada na sua conta.'
   Countdown:
-    Message: '&7You ll be teleported in &e&o'
-    SubTitleMessage: '&7Teleporting...'
+    Message: ''
+    SubTitleMessage: '&aTeleportando...'

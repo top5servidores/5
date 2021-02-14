@@ -1,0 +1,52 @@
+# Generated using AutoTorch v1.4.3 at Sun Feb 14 18:28:10 UTC 2021
+# Thanks for using AutoTorch! If you and your players like this plugin, please do leave a review - it helps a lot! 
+# 
+# As of v1.2.0, if you upgraded from an older version use 'player.frominventory' instead of 'frominventory'
+player:
+  frominventory: true
+  creativebypass: false
+  torchinhand: true
+  torchinoffhand: true
+plugin:
+  loginupdatechecker: false
+  warnings: true
+  storeuuidsonrestart: true
+block:
+  radius: 10
+  lightnesslevel: 4
+  blacklist:
+    enabled: false
+    list:
+    - GRASS
+    - DIRT
+  whitelist:
+    enabled: false
+    list:
+    - GRASS
+    - DIRT
+  worlds:
+    enabled: false
+    list:
+    - world
+    - world_nether
+  boundaries:
+    x:
+      enabled: false
+      min: 0
+      max: 1000
+    y:
+      enabled: false
+      min: 4
+      max: 30
+    z:
+      enabled: false
+      min: 0
+      max: 1000
+worldguard:
+  enabled: false
+  regions:
+  - __global__
+  whitelist:
+    enabled: false
+    list:
+    - __global__

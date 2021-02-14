@@ -11,7 +11,7 @@
 # <abilities> = A list of about 3-5 (whatever can fit) names of abilities the boss has.
 # <mobName> = Name of the mob, so if the mob is a creeper the mobName will be "Creeper".
 configVersion: 'git-Paper-468 (MC: 1.16.5)'
-chance: 98
+chance: 99
 namePrefix: '&fEpic'
 nameTagsLevel: 1
 nameTagsName: '&f<prefix> <mobName>'
