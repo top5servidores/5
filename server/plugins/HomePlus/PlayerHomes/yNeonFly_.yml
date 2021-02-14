@@ -19,3 +19,10 @@ argila:
   Yaw: 117.947685
   Pitch: 58.745495
   World: world
+default:
+  X: 18723
+  Y: 42
+  Z: 7094
+  Yaw: 259.76956
+  Pitch: 83.00882
+  World: world
