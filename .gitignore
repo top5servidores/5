@@ -3,3 +3,4 @@
 ngrok-minecraft-server.iml
 logs/
 server/cache
+server/plugins/cache
