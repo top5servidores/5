@@ -1,6 +1,6 @@
 Language: pt_BR
 Economy:
-  Enable: false
-  Price: 100
+  Enable: true
+  Price: 5
 AlphabetAndNumberBanner:
   Enable: true
