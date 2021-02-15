@@ -26,3 +26,31 @@ default:
   Yaw: 259.76956
   Pitch: 83.00882
   World: world
+farmend:
+  X: 832
+  Y: 3
+  Z: 419
+  Yaw: 88.370255
+  Pitch: 5.996895
+  World: world_the_end
+brasil:
+  X: 18189
+  Y: 43
+  Z: 7920
+  Yaw: -129.31998
+  Pitch: 37.05236
+  World: world
+borders:
+  X: 29999885
+  Y: 73
+  Z: 29999965
+  Yaw: 272.11282
+  Pitch: 15.819933
+  World: world
+warped:
+  X: 2385
+  Y: 52
+  Z: 972
+  Yaw: 277.47925
+  Pitch: 34.173763
+  World: world_nether

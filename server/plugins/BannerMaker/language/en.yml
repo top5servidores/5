@@ -1,0 +1,55 @@
+# English(en)
+# For BannerMaker v2.1.0
+# Contributor(s): KID
+general:
+  prefix: '&6[&aBannerMaker&6]&r '
+  reload: Reload config
+  no-permission: No permission
+  no-money: Not enough money
+  money-transaction: Use {0} to get banner. Now you have {1}
+io:
+  save-failed: Save failed.
+  save-success: Save success.
+  remove-banner: Remove banner &r#{0}
+command:
+  player-only: This command can only be used by players in game
+  invalid-parameter: 'Invalid parameter(s), correct usage: {0}'
+  not-banner-hand: Item in hand is not a banner.
+  not-banner-see: Block you're looking at is not a banner.
+config:
+  add-setting: Add {0} new settings
+gui:
+  prefix: '&4[BM]&r '
+  main-menu: Main menu
+  prev-page: Prev Page
+  next-page: Next Page
+  create-banner: Create Banner
+  uncraftable-warning: Uncraftable Warning
+  uncraftable: Uncraftable
+  more-than-6-patterns: More than 6 patterns.
+  more-patterns: More patterns
+  back: Back
+  create: Create
+  delete: DELETE
+  remove-last-pattern: Remove last pattern
+  banner-info: Banner info
+  pattern-s: pattern(s)
+  no-patterns: No patterns
+  craft-recipe: Craft Recipe
+  get-this-banner: Get this banner
+  get-banner: Get banner &r#{0}
+  get-banner-for-free: Get banner for free
+  buy-banner-in-price: Buy in {0}
+  get-banner-by-craft: Craft
+  price: 'Price: {0}'
+  clone-and-edit: 'Clone & Edit'
+  alphabet-and-number: 'Alphabet & Number'
+  toggle-border: Toggle border
+  materials:
+    enough: Materials enough
+    not-enough: Materials not enough
+  click:
+    left: Left Click
+    right: Right Click
+  selected-pattern-color: Selected pattern color
+  toggle-preview-mode: Toggle preview mode

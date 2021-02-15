@@ -1,0 +1,41 @@
+# BetterConcrete by Alex_qp
+# This plugin provides you with some more mechanics/recipes to transform concrete into powder and the other way round.
+# Please leave a review after a while to help me improve my plugins!
+
+# All configurations for furnace
+## add_recipes_on_login: 	If set to true recipes will be added to a player's recipe book on login.
+furnace_recipes:
+  add_recipes_on_login: true
+  concrete_to_powder:
+    enable: true
+    exp_amount: 0.1
+    cooking_time: 200
+  powder_to_glass:
+    enable: true
+    exp_amount: 0.1
+    cooking_time: 200
+
+# Cauldron options
+## check_empty: If set to 0: players will be able to transfer items in any cauldron.
+##			    If set to 1: players will be able to transfer items in non empty cauldrons.
+##			    If set to 2: players will be able to transfer items in cauldrons with higher or equal waterlevel than needed for one transformation (change_waterlevel)
+## change_waterlevel: Cauldrons will change their waterlevel by the given amount if a player transforms items (the amount of items is unnecessary). Note: A full cauldron has water level 3.
+## call_event: This is just for compatibility reasons with other plugins. If set to true other plugins will get notified (CauldronLevelChangeEvent) of water level changes with unknown reason.
+cauldron_mechanic:
+  enable: true
+  check_empty: 1
+  change_waterlevel: 1
+  call_event: false
+
+# Message configuration
+messages:
+  credits: "Use /betterconcrete help for all available commands."
+  noPerm: "&4You do not have permission."
+  help:
+    header: "List of all available commands:"
+    discover: "discovers all available recipes."
+  wrongCmdUsage:
+    prefix: "&CUsage:"
+    noSubCmd: "&CNo such (sub-)command. Use /betterconcrete help for all available commands."
+  discover:
+    success: "&2You discovered all available recipes."

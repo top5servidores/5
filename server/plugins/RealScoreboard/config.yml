@@ -1,33 +1,33 @@
 Config:
-  Prefix: '&3&lSCOREBOARD '
-  Reloaded: '&fThe config has been &areloaded&f.'
+  Prefix: "&3&lSCOREBOARD "
+  Reloaded: "&fThe config has been &areloaded&f."
   Messages:
     Scoreboard-Toggle:
-      'ON': '&fModo de scoreboard alternado para &aATIVADO&f.'
-      'OFF': '&fModo de scoreboard alternado para &cDESATIVADO&f.'
+      "ON": "&fModo de scoreboard alternado para &aATIVADO&f."
+      "OFF": "&fModo de scoreboard alternado para &cDESATIVADO&f."
   Animations:
-    Rainbow-Delay: 10
-    Title-Delay: 1
-  Scoreboard-Refresh: 10
+    Rainbow-Delay: 100
+    Title-Delay: 100
+  Scoreboard-Refresh: 20
   Disabled-Worlds:
-  - testWorld
-  - ExampleWorld2
+    - testWorld
+    - ExampleWorld2
   Scoreboard:
     world:
       Lines:
-      - '&7%localtime_time%'
-      - '%blank%'
-      - '&f%javascript_daysymbol_{player_world_time_24}% &7%player_world_time_12%'
-      - '&f⏣ &b%javascript_capitalize_{player_biome}%'
-      - '%blank%'
-      - '&fDimensão: %javascript_dimension_{player_world}%'
-      - '&fEsmeraldas: &2☄%money%'
-      - '%blank%'
-      - '&c❤ &f%player_health_scale%/%player_max_health_rounded%, &e☕ &f%player_food_level%,
-        &d⌘ &f%player_level%'
-      - '%blank%'
+        - "&7%localtime_time%"
+        - "%blank%"
+        - "&f%javascript_daysymbol_{player_world_time_24}% &7%player_world_time_12%"
+        - "&f⏣ &b%javascript_capitalize_{player_biome}%"
+        - "%blank%"
+        - "&fDimensão: %javascript_dimension_{player_world}%"
+        - "&fEsmeraldas: &2☄%money%"
+        - "%blank%"
+        - "&c❤ &f%player_health_rounded%/%player_max_health_rounded%, &e☕ &f%player_food_level%,
+          &d⌘ &f%player_level%"
+        - "%blank%"
       Title:
-      - '&e&lEARTH'
+        - "&e&lEARTH"
 Version: 3
 PlayerData:
   nekkan:
@@ -53,4 +53,6 @@ PlayerData:
   Daxner:
     ScoreboardON: true
   NicollyLolizinha:
+    ScoreboardON: true
+  Yuyy_:
     ScoreboardON: true

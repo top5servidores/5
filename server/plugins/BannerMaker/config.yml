@@ -1,0 +1,6 @@
+Language: pt_BR
+Economy:
+  Enable: false
+  Price: 100
+AlphabetAndNumberBanner:
+  Enable: true
