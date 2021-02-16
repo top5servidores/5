@@ -1,0 +1,25 @@
+{
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2021-02-16 19:27:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-02-16 19:25:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_mountains": "2021-02-16 19:21:04 +0000",
+      "minecraft:beach": "2021-02-16 19:23:24 +0000",
+      "minecraft:giant_tree_taiga_hills": "2021-02-16 19:22:29 +0000",
+      "minecraft:savanna": "2021-02-16 19:22:45 +0000",
+      "minecraft:plains": "2021-02-16 19:22:55 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
