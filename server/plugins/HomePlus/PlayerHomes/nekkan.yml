@@ -68,13 +68,6 @@ sim:
   Yaw: -266.53662
   Pitch: 5.796261
   World: world_the_end
-EndermanFarm:
-  X: 837
-  Y: 3
-  Z: 419
-  Yaw: 88.21338
-  Pitch: 4.428215
-  World: world_the_end
 borda:
   X: 29999732
   Y: 69
@@ -89,3 +82,10 @@ Mapas:
   Yaw: -197.1073
   Pitch: 8.064629
   World: world
+EndermanFarm:
+  X: 838
+  Y: 6
+  Z: 418
+  Yaw: 99.112854
+  Pitch: 18.51765
+  World: world_the_end

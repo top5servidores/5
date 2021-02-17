@@ -1,0 +1,16 @@
+VIADO:
+  Leader: a26cb519-6dfb-3c83-83a7-9a9e707f61cf|nekkan
+  Locked: true
+  Level: 0
+  Xp: 1144
+  Ally: ''
+  ExpShareMode: NONE
+  ItemShareMode: NONE
+  ItemShareType:
+    LOOT: true
+    MINING: true
+    HERBALISM: true
+    WOODCUTTING: true
+    MISC: true
+  Members:
+  - a26cb519-6dfb-3c83-83a7-9a9e707f61cf|nekkan

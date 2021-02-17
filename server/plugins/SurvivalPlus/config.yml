@@ -1,0 +1,134 @@
+#############################################################################################
+# +---------------------------------------------------------------------------------------+ #
+# |                                                                                       | #
+# |             __                                              __                        | #
+# |           /                       /             /         /  |  /                     | #
+# |          (___         ___                 ___  (         (___| (         ___          | #
+# |              ) |   ) | _ )  \  ) |  \  ) |   ) |         |     |  |   ) |___          | #
+# |           __/  |__/  |  \    \/  |   \/  |__/| |__       |     |  |__/   __/          | #
+# |                                                                                       | #
+# | ISSUE REPORTING: https://github.com/nekkan/survivalplus/issues                        | #
+# | SOURCE CODE:     https://github.com/nekkan/survivalplus                               | #
+# |                                                                                       | #
+# +---------------------------------------------------------------------------------------+ #
+#############################################################################################
+
+general:
+  locale: en_US
+
+modules:
+  # Module that make the player lose money when die in order to keep the inventory.
+  vault-keep-inventory:
+    enabled: true
+    # The value that will be taken from the player's account.
+    tax: 32
+  # Module that allows you to create uniquely-shaped nether portals
+  arbitrary-portals:
+    enabled: true
+  # Module that improves the sleeping mechanics
+  sleep-enhancement:
+    enabled: true
+    # The percentage of players required to be sleeping to skip the night.
+    # Default value: 50 (50 - 100)
+    percentage: 50
+    # The amount of ticks added to the current time every tick when skipping the night.
+    # Default value: 75
+    tick-rate: 75
+    # The time in ticks that the module will consider as day.
+    # Default value: 1200
+    daytime-ticks: 1200
+    # Whether the phantom statistics should be reset when skipping the night.
+    # Check out the gamerule 'doInsomnia' if are you using 1.15 or higher.
+    reset-phantom-statistics: true
+    # Whether the rain or thunder should be cleared when skipping the night.
+    clear-rain: true
+    # A list of worlds that this module will be disabled.
+    # You may want to disable these worlds if are you using the 'sleep in all worlds' feature.
+    blacklisted-worlds:
+      - 'world_nether'
+      - 'world_the_end'
+    # Whether beds should explode at nether.
+    explode-at-nether: false
+    # Whether beds should explode at the end.
+    explode-at-the-end: true
+    # A list of exclusions to make sleeping easier.
+    exclusions:
+      exclude-adventure: false # Exclude players in adventure mode from sleeping players count.
+      exclude-creative: false # Exclude players in creative mode from sleeping players count.
+      exclude-vanished: true # Exclude players in vanished mode from sleeping players count.
+      exclude-spectator: true # Exclude players in spectator mode from sleeping players count.
+  # Creatures that spawn will have a chance to become "epic". In other words, they will become mini bosses, gain
+  # random powers, and drop good loot when they die.
+  epic-creatures:
+    enabled: true
+    # Creatures that are considered 'good' will not receive negative powers and will not drop loot.
+    # Set to false to disable this option.
+    good-creatures:
+      - WOLF
+      - PIG
+      - SQUID
+      - COW
+      - CHICKEN
+      - SHEEP
+      - RABBIT
+    # A list of creatures that will not become epic.
+    # Set to false to disable this option.
+    blacklisted-creatures:
+      - CREEPER
+      - WITHER
+      - ENDER_DRAGON
+      - ENDERMAN
+    # The chance of a creature become "epic".
+    # Lower values is recommend to not affect the TPS.
+    # Default value: 1 (0 - 100).
+    chance: 1
+    # The loot the epic creatures will drop when they die.
+    # Use Bukkit material names to provide an item id.
+    loot:
+      - diamond:
+          amount: 5
+      - arrow:
+          amount: 30
+      - golden_apple:
+          amount: 7
+      - apple:
+          amount: 26
+      - bread:
+          amount: 20
+      - ancient_debris:
+          amount: 3
+      - gold_ingot:
+          amount: 8
+      - stone_axe:
+          amount: 1
+      - diamond_sword:
+          amount: 1
+      - lingering_potion:
+          potion-effect: heal # Bukkit's PotionEffectType
+          amplifier: 2
+          amount: 3
+      - potion:
+          potion-effect: speed
+          amplifier: 2
+          amount: 1
+    powers:
+      - 'br.com.nekkan.survivalplus.core.powers.StrengthPower'
+      - 'br.com.nekkan.survivalplus.core.powers.SpeedPower'
+      - 'br.com.nekkan.survivalplus.core.powers.PushPower'
+      - 'br.com.nekkan.survivalplus.core.powers.MonsterRepellent'
+      - 'br.com.nekkan.survivalplus.core.powers.MirrorPower'
+      - 'br.com.nekkan.survivalplus.core.powers.InvisibilityPower'
+  cauldron-concrete:
+    enabled: true
+  projectile-knockback:
+    enabled: true
+  smooth-timber:
+    enabled: true
+    # The (Bukkit) material the player need to be holding to use the smooth timber feature.
+    material:
+      - stone_axe
+      - wooden_axe
+      - golden_axe
+      - diamond_axe
+      - netherite_axe
+      - iron_axe
