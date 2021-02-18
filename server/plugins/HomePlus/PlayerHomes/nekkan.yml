@@ -47,13 +47,6 @@ bastion1:
   Yaw: 87.757385
   Pitch: 39.080563
   World: world_nether
-Amazonia:
-  X: 18113
-  Y: 67
-  Z: 6793
-  Yaw: 68.28793
-  Pitch: 21.177181
-  World: world
 EndGateway1:
   X: 986
   Y: 59
@@ -89,3 +82,10 @@ EndermanFarm:
   Yaw: 99.112854
   Pitch: 18.51765
   World: world_the_end
+Amazonia:
+  X: 18112
+  Y: 70
+  Z: 6789
+  Yaw: 90.01156
+  Pitch: -17.063656
+  World: world

@@ -1,0 +1,47 @@
+
+
+#  _  _  ___ _____   _____ ___   ___    _____  _____ ___ _  _ ___ _____   _____ 
+# | \| |/ _ \_   _| |_   _/ _ \ / _ \  | __\ \/ / _ \ __| \| / __|_ _\ \ / / __|
+# | .` | (_) || |     | || (_) | (_) | | _| >  <|  _/ _|| .` \__ \| | \ V /| _| 
+# |_|\_|\___/ |_|     |_| \___/ \___/  |___/_/\_\_| |___|_|\_|___/___| \_/ |___|
+
+
+# Not Too Expensive Config 
+# By TAU
+# https://www.spigotmc.org/members/tau.300190/
+#
+
+Anvil Max Repair Cost: 2147483600
+# Set the max cost for an anvil actions (In Lvl's)
+# It may say too expensive on a clients screen, But it is just fibbing.
+# Keep it at least a few levels below the 32-Bit int
+
+Anvil Reset Max Repair Cost: 39
+# Should the plugin reset the repair cost of this action to the above value if it costs more than this level?
+# Note: clients will not display this correctly if the value is >39
+#       Instead it will display the cost as hotbar message.
+# Note: Will only be checked if it is below or equal to "Anvil Max Repair Cost"
+
+# Display (Hotbar)
+Anvil Too Expensive MSG: "&7(&6Anvil&7) &cToo Expensive &7(&b%lvl%&7)"
+Anvil Overflow Level MSG: "&7(&6Anvil&7) &aEnchantment Cost: &7(&b%lvl%&7)"
+Not Enough Levels MSG: "&7(&6Anvil&7) &cYou need to be level &7(&b%lvl%&7)&c to do this"
+
+# Depends #
+
+Item Repair Cost TAG Limit: 20
+# This not only gives control over the cumulative repair cost of an item,
+# It also can be used to prevent the scenario of an item reaching the 32bit int limit of repair cost
+# and thus the system not allowing further repairs
+
+# When set with "Enable Item Tag Cap Reset: true" It will clamp the tag.RepairCost nbt of
+# Any item in the Anvil to this level. Preventing the repairs from getting more expensive
+# Just by repairing the item. Note: The use of an anvil can still get more expensive with more enchantments etc
+
+Enable Item Tag Cap Reset: false
+# If this is enabled you need to install ItemNBTApi
+# https://www.spigotmc.org/resources/item-entity-tile-nbt-api.7939/
+
+# No touchy
+Config Version: 2
+# No touchy
