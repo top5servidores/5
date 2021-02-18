@@ -61,8 +61,8 @@ modules:
   # random powers, and drop good loot when they die.
   epic-creatures:
     enabled: true
-    # Creatures that are considered 'good' will not receive negative powers and will not drop loot.
-    # Set to false to disable this option.
+    # A list of creatures that are considered to be peaceful and will receive powers that are considered to be
+    # beneficial, such as attacking aggressive monsters.
     good-creatures:
       - WOLF
       - PIG
@@ -71,50 +71,61 @@ modules:
       - CHICKEN
       - SHEEP
       - RABBIT
-    # A list of creatures that will not become epic.
-    # Set to false to disable this option.
+    # list of creatures by which they will not be spawned as epic creatures even through commands.
     blacklisted-creatures:
       - CREEPER
       - WITHER
       - ENDER_DRAGON
       - ENDERMAN
-    # The chance of a creature become "epic".
-    # Lower values is recommend to not affect the TPS.
+    # The chance in a percentage between 0 and 100 that a creature will become epic naturally when spawned.
     # Default value: 1 (0 - 100).
     chance: 1
-    # The loot the epic creatures will drop when they die.
-    # Use Bukkit material names to provide an item id.
+    # The list of items that will be dropped as loot upon the death of an epic creature. The item type must
+    # match the Bukkit material names, and the same goes for potion effect names, which must match the
+    # PotionEffectType.
     loot:
-      - diamond:
+      - 1:
+          type: diamond
           amount: 5
-      - arrow:
+      - 2:
+          type: arrow
           amount: 30
-      - golden_apple:
+      - 3:
+          type: golden_apple
           amount: 7
-      - apple:
+      - 4:
+          type: apple
           amount: 26
-      - bread:
+      - 5:
+          type: bread
           amount: 20
-      - ancient_debris:
+      - 6:
+          type: ancient_debris
           amount: 3
-      - gold_ingot:
+      - 7:
+          type: gold_ingot
           amount: 8
-      - stone_axe:
-          amount: 1
-      - diamond_sword:
-          amount: 1
-      - lingering_potion:
+      - 8:
+          type: stone_axe # Amount = 1 by default
+      - 9:
+          type: diamond_sword
+      - 10:
+          type: lingering_potion
           potion-effect: heal # Bukkit's PotionEffectType
           amplifier: 2
           amount: 3
-      - potion:
+      - 11:
+          type: potion
           potion-effect: speed
           amplifier: 2
           amount: 1
+    # List of classes in which they extend EpicCreaturesPower and can listen for events. The classes must have a
+    # public constructor with no parameters and must override the invoke function.
     powers:
       - 'br.com.nekkan.survivalplus.core.powers.StrengthPower'
       - 'br.com.nekkan.survivalplus.core.powers.SpeedPower'
       - 'br.com.nekkan.survivalplus.core.powers.PushPower'
+      - 'br.com.nekkan.survivalplus.core.powers.ClonePower'
       - 'br.com.nekkan.survivalplus.core.powers.MonsterRepellent'
       - 'br.com.nekkan.survivalplus.core.powers.MirrorPower'
       - 'br.com.nekkan.survivalplus.core.powers.InvisibilityPower'

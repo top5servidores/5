@@ -1,12 +1,12 @@
 messages:
-  only-players: '&cThis command cannot be executed from console.'
+  in-game-only: '&cThis command cannot be executed from console.'
   no-permission: "&cI'm sorry but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
   keep-inventory: '&3&lINVENTORY&f You died and lose &2$32&f.' # Make empty any message you want to disable.
   accelerating-the-night: '&e☀ &fThe night time is being accelerated.'
   night-skipped: '&e☀ &fGood morning!'
   invalid-entity: '&cInvalid entity name.'
-  epic-creature-prefix: 'Epic '
-  epic-creature-spawn: '&aSpawning a %type% with the following powers: &f%powers%'
+  epic-creature-boss-bar-title: 'Epic %type% (%power-count%)'
+  epic-creature-spawn-message: '&aSpawning a %type% with the following powers: &f%powers%'
   player-sleeping: '&e☀ &fThe player &7%player%&f is now sleeping &7(%sleeping%/%needed%, %more% more needed to skip the nighttime).'
   player-left-the-bed: '&e☀ &fThe player &7%player%&f got out of bed &7(%sleeping%/%needed%, %more% more needed to skip the nighttime).'
   already-skipping-night: '&c☀ &fThe night time is already being skipped.'
